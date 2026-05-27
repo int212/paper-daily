@@ -42,6 +42,7 @@
 - `LLM_MODEL`，例如 `deepseek-chat`
 - `LLM_CONCURRENCY`，模型并发数，默认 `4`
 - `LLM_MAX_TOKENS`，单篇总结最大输出 token，默认 `1200`
+- `LLM_RETRIES`，单篇总结失败重试次数，默认 `2`
 
 `LLM_BASE_URL` 和 `LLM_MODEL` 也可以放在 Secrets 中；workflow 会优先读取 Variables，未设置时读取 Secrets。
 
