@@ -40,12 +40,12 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CONFIG_ISSUE_TITLE: Research Interests
-          LOOKBACK_DAYS: "7"
-          MAX_PER_TOPIC: "25"
-          MAX_SUMMARIES: "40"
-          MAX_STORED_PAPERS: "300"
-          MAX_DATA_BYTES: "5242880"
-          LLM_CONCURRENCY: "2"
+          LOOKBACK_DAYS: ${{ vars.LOOKBACK_DAYS || '7' }}
+          MAX_PER_TOPIC: ${{ vars.MAX_PER_TOPIC || '25' }}
+          MAX_SUMMARIES: ${{ vars.MAX_SUMMARIES || '40' }}
+          MAX_STORED_PAPERS: ${{ vars.MAX_STORED_PAPERS || '300' }}
+          MAX_DATA_BYTES: ${{ vars.MAX_DATA_BYTES || '5242880' }}
+          LLM_CONCURRENCY: ${{ vars.LLM_CONCURRENCY || '2' }}
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           LLM_BASE_URL: ${{ vars.LLM_BASE_URL || secrets.LLM_BASE_URL }}
           LLM_MODEL: ${{ vars.LLM_MODEL || secrets.LLM_MODEL }}
