@@ -1,12 +1,3 @@
----
-name: Research Interests
-about: Configure paper search topics
-title: Research Interests
-labels: config
-assignees: ''
----
-
-```json
 {
   "topics": [
     {
