@@ -1,6 +1,6 @@
 {
-  "generated_at": "Fri, 29 May 2026 21:06:33 +0000",
-  "generated_at_iso": "2026-05-29T21:06:33.642763+00:00",
+  "generated_at": "Fri, 29 May 2026 21:12:47 +0000",
+  "generated_at_iso": "2026-05-29T21:12:47.295210+00:00",
   "config_source": "file",
   "topics": [
     {
@@ -176,7 +176,7 @@
         "why_relevant": "关键词命中：LLM quantization、low-bit quantization、post-training quantization；arXiv 分类重合：cs.AI、cs.LG"
       },
       "first_seen_at": "2026-05-29T20:54:13.788108+00:00",
-      "last_seen_at": "2026-05-29T21:06:33.642763+00:00",
+      "last_seen_at": "2026-05-29T21:12:47.295210+00:00",
       "retained_from_previous_run": false
     },
     {
@@ -263,7 +263,7 @@
         "why_relevant": "关键词命中：LLM quantization、post-training quantization、activation quantization；arXiv 分类重合：cs.AI、cs.LG"
       },
       "first_seen_at": "2026-05-29T20:54:13.788108+00:00",
-      "last_seen_at": "2026-05-29T21:06:33.642763+00:00",
+      "last_seen_at": "2026-05-29T21:12:47.295210+00:00",
       "retained_from_previous_run": false
     },
     {
@@ -342,7 +342,7 @@
         "why_relevant": "关键词命中：mixed precision；arXiv 分类重合：cs.AI、cs.LG"
       },
       "first_seen_at": "2026-05-29T20:54:13.788108+00:00",
-      "last_seen_at": "2026-05-29T21:06:33.642763+00:00",
+      "last_seen_at": "2026-05-29T21:12:47.295210+00:00",
       "retained_from_previous_run": false
     },
     {
@@ -420,7 +420,7 @@
         "why_relevant": "关键词命中：tensor processing unit、systolic array；arXiv 分类重合：cs.AR"
       },
       "first_seen_at": "2026-05-29T20:54:13.788108+00:00",
-      "last_seen_at": "2026-05-29T21:06:33.642763+00:00",
+      "last_seen_at": "2026-05-29T21:12:47.295210+00:00",
       "retained_from_previous_run": false
     },
     {
@@ -497,7 +497,7 @@
         "why_relevant": "关键词命中：tensor core；arXiv 分类重合：cs.DC、cs.PF"
       },
       "first_seen_at": "2026-05-29T20:54:13.788108+00:00",
-      "last_seen_at": "2026-05-29T21:06:33.642763+00:00",
+      "last_seen_at": "2026-05-29T21:12:47.295210+00:00",
       "retained_from_previous_run": false
     },
     {
@@ -573,7 +573,7 @@
         "why_relevant": "关键词命中：LLM quantization；arXiv 分类重合：cs.AI、cs.LG"
       },
       "first_seen_at": "2026-05-29T20:54:13.788108+00:00",
-      "last_seen_at": "2026-05-29T21:06:33.642763+00:00",
+      "last_seen_at": "2026-05-29T21:12:47.295210+00:00",
       "retained_from_previous_run": false
     },
     {
@@ -651,7 +651,7 @@
         "why_relevant": "关键词命中：INT8；arXiv 分类重合：cs.AI、cs.LG"
       },
       "first_seen_at": "2026-05-29T20:54:13.788108+00:00",
-      "last_seen_at": "2026-05-29T21:06:33.642763+00:00",
+      "last_seen_at": "2026-05-29T21:12:47.295210+00:00",
       "retained_from_previous_run": false
     },
     {
@@ -732,7 +732,7 @@
         "why_relevant": "关键词命中：KV cache compression；arXiv 分类重合：cs.CL"
       },
       "first_seen_at": "2026-05-29T20:54:13.788108+00:00",
-      "last_seen_at": "2026-05-29T21:06:33.642763+00:00",
+      "last_seen_at": "2026-05-29T21:12:47.295210+00:00",
       "retained_from_previous_run": false
     },
     {
@@ -815,7 +815,7 @@
         "why_relevant": "关键词命中：long context inference；arXiv 分类重合：cs.CL"
       },
       "first_seen_at": "2026-05-29T20:54:13.788108+00:00",
-      "last_seen_at": "2026-05-29T21:06:33.642763+00:00",
+      "last_seen_at": "2026-05-29T21:12:47.295210+00:00",
       "retained_from_previous_run": false
     },
     {
@@ -892,7 +892,7 @@
         "why_relevant": "关键词命中：post-training quantization；arXiv 分类重合：cs.AI"
       },
       "first_seen_at": "2026-05-29T20:54:13.788108+00:00",
-      "last_seen_at": "2026-05-29T21:06:33.642763+00:00",
+      "last_seen_at": "2026-05-29T21:12:47.295210+00:00",
       "retained_from_previous_run": false
     },
     {
@@ -969,7 +969,7 @@
         "why_relevant": "关键词命中：weight-only quantization；arXiv 分类重合：cs.AI"
       },
       "first_seen_at": "2026-05-29T20:54:13.788108+00:00",
-      "last_seen_at": "2026-05-29T21:06:33.642763+00:00",
+      "last_seen_at": "2026-05-29T21:12:47.295210+00:00",
       "retained_from_previous_run": false
     },
     {
@@ -1052,7 +1052,7 @@
         "why_relevant": "关键词命中：post-training quantization；arXiv 分类重合：cs.LG"
       },
       "first_seen_at": "2026-05-28T09:35:48.728882+00:00",
-      "last_seen_at": "2026-05-29T21:06:33.642763+00:00",
+      "last_seen_at": "2026-05-29T21:12:47.295210+00:00",
       "retained_from_previous_run": false
     },
     {
@@ -1129,7 +1129,7 @@
         "why_relevant": "关键词命中：post-training quantization；arXiv 分类重合：cs.AI"
       },
       "first_seen_at": "2026-05-29T20:54:13.788108+00:00",
-      "last_seen_at": "2026-05-29T21:06:33.642763+00:00",
+      "last_seen_at": "2026-05-29T21:12:47.295210+00:00",
       "retained_from_previous_run": false
     },
     {
@@ -1208,7 +1208,7 @@
         "why_relevant": "关键词命中：LLM quantization；arXiv 分类重合：cs.LG"
       },
       "first_seen_at": "2026-05-29T20:54:13.788108+00:00",
-      "last_seen_at": "2026-05-29T21:06:33.642763+00:00",
+      "last_seen_at": "2026-05-29T21:12:47.295210+00:00",
       "retained_from_previous_run": false
     },
     {
@@ -1286,7 +1286,7 @@
         "why_relevant": "关键词命中：low-bit quantization；arXiv 分类重合：cs.LG"
       },
       "first_seen_at": "2026-05-29T20:54:13.788108+00:00",
-      "last_seen_at": "2026-05-29T21:06:33.642763+00:00",
+      "last_seen_at": "2026-05-29T21:12:47.295210+00:00",
       "retained_from_previous_run": false
     },
     {
@@ -1368,7 +1368,7 @@
         "why_relevant": "关键词命中：INT4；arXiv 分类重合：cs.AI、cs.LG"
       },
       "first_seen_at": "2026-05-29T20:54:13.788108+00:00",
-      "last_seen_at": "2026-05-29T21:06:33.642763+00:00",
+      "last_seen_at": "2026-05-29T21:12:47.295210+00:00",
       "retained_from_previous_run": false
     },
     {
@@ -1440,7 +1440,7 @@
         "why_relevant": "arXiv 分类重合：cs.CL、cs.LG"
       },
       "first_seen_at": "2026-05-29T20:54:13.788108+00:00",
-      "last_seen_at": "2026-05-29T21:06:33.642763+00:00",
+      "last_seen_at": "2026-05-29T21:12:47.295210+00:00",
       "retained_from_previous_run": false
     },
     {
@@ -1519,7 +1519,7 @@
         "why_relevant": "关键词命中：post-training quantization；arXiv 分类重合：cs.AI"
       },
       "first_seen_at": "2026-05-29T20:54:13.788108+00:00",
-      "last_seen_at": "2026-05-29T21:06:33.642763+00:00",
+      "last_seen_at": "2026-05-29T21:12:47.295210+00:00",
       "retained_from_previous_run": false
     },
     {
@@ -1599,7 +1599,7 @@
         "why_relevant": "关键词命中：INT4；arXiv 分类重合：cs.AI、cs.LG"
       },
       "first_seen_at": "2026-05-29T20:54:13.788108+00:00",
-      "last_seen_at": "2026-05-29T21:06:33.642763+00:00",
+      "last_seen_at": "2026-05-29T21:12:47.295210+00:00",
       "retained_from_previous_run": false
     },
     {
@@ -1672,7 +1672,7 @@
         "why_relevant": "arXiv 分类重合：cs.CL"
       },
       "first_seen_at": "2026-05-29T20:54:13.788108+00:00",
-      "last_seen_at": "2026-05-29T21:06:33.642763+00:00",
+      "last_seen_at": "2026-05-29T21:12:47.295210+00:00",
       "retained_from_previous_run": false
     },
     {
@@ -1745,7 +1745,7 @@
         "why_relevant": "arXiv 分类重合：cs.LG"
       },
       "first_seen_at": "2026-05-29T20:54:13.788108+00:00",
-      "last_seen_at": "2026-05-29T21:06:33.642763+00:00",
+      "last_seen_at": "2026-05-29T21:12:47.295210+00:00",
       "retained_from_previous_run": false
     },
     {
@@ -1821,7 +1821,7 @@
         "why_relevant": "关键词命中：KV cache compression；arXiv 分类重合：cs.LG"
       },
       "first_seen_at": "2026-05-29T20:54:13.788108+00:00",
-      "last_seen_at": "2026-05-29T21:06:33.642763+00:00",
+      "last_seen_at": "2026-05-29T21:12:47.295210+00:00",
       "retained_from_previous_run": false
     },
     {
@@ -1897,7 +1897,7 @@
         "why_relevant": "关键词命中：pipeline parallelism；arXiv 分类重合：cs.DC"
       },
       "first_seen_at": "2026-05-29T20:54:13.788108+00:00",
-      "last_seen_at": "2026-05-29T21:06:33.642763+00:00",
+      "last_seen_at": "2026-05-29T21:12:47.295210+00:00",
       "retained_from_previous_run": false
     },
     {
@@ -1975,7 +1975,7 @@
         "why_relevant": "关键词命中：FP8；arXiv 分类重合：cs.AI"
       },
       "first_seen_at": "2026-05-29T20:54:13.788108+00:00",
-      "last_seen_at": "2026-05-29T21:06:33.642763+00:00",
+      "last_seen_at": "2026-05-29T21:12:47.295210+00:00",
       "retained_from_previous_run": false
     },
     {
@@ -2048,7 +2048,7 @@
         "why_relevant": "arXiv 分类重合：cs.CL"
       },
       "first_seen_at": "2026-05-29T20:54:13.788108+00:00",
-      "last_seen_at": "2026-05-29T21:06:33.642763+00:00",
+      "last_seen_at": "2026-05-29T21:12:47.295210+00:00",
       "retained_from_previous_run": false
     },
     {
@@ -2131,7 +2131,7 @@
         "why_relevant": "关键词命中：pipeline parallelism；arXiv 分类重合：cs.DC"
       },
       "first_seen_at": "2026-05-29T20:54:13.788108+00:00",
-      "last_seen_at": "2026-05-29T21:06:33.642763+00:00",
+      "last_seen_at": "2026-05-29T21:12:47.295210+00:00",
       "retained_from_previous_run": false
     },
     {
@@ -2206,7 +2206,7 @@
         "why_relevant": "arXiv 分类重合：cs.DC、cs.LG"
       },
       "first_seen_at": "2026-05-29T20:54:13.788108+00:00",
-      "last_seen_at": "2026-05-29T21:06:33.642763+00:00",
+      "last_seen_at": "2026-05-29T21:12:47.295210+00:00",
       "retained_from_previous_run": false
     },
     {
@@ -2287,7 +2287,7 @@
         "why_relevant": "关键词命中：post-training quantization；arXiv 分类重合：cs.CL"
       },
       "first_seen_at": "2026-05-29T20:54:13.788108+00:00",
-      "last_seen_at": "2026-05-29T21:06:33.642763+00:00",
+      "last_seen_at": "2026-05-29T21:12:47.295210+00:00",
       "retained_from_previous_run": false
     },
     {
@@ -2367,7 +2367,7 @@
         "why_relevant": "关键词命中：distributed inference；arXiv 分类重合：cs.DC"
       },
       "first_seen_at": "2026-05-29T20:54:13.788108+00:00",
-      "last_seen_at": "2026-05-29T21:06:33.642763+00:00",
+      "last_seen_at": "2026-05-29T21:12:47.295210+00:00",
       "retained_from_previous_run": false
     },
     {
@@ -2442,7 +2442,7 @@
         "why_relevant": "arXiv 分类重合：cs.CL"
       },
       "first_seen_at": "2026-05-29T20:54:13.788108+00:00",
-      "last_seen_at": "2026-05-29T21:06:33.642763+00:00",
+      "last_seen_at": "2026-05-29T21:12:47.295210+00:00",
       "retained_from_previous_run": false
     },
     {
@@ -2517,7 +2517,7 @@
         "why_relevant": "arXiv 分类重合：cs.LG"
       },
       "first_seen_at": "2026-05-29T20:54:13.788108+00:00",
-      "last_seen_at": "2026-05-29T21:06:33.642763+00:00",
+      "last_seen_at": "2026-05-29T21:12:47.295210+00:00",
       "retained_from_previous_run": false
     },
     {
@@ -2603,9 +2603,9 @@
     "new_paper_count": 31,
     "days": 7,
     "collection_mode": "lookback",
-    "collection_cutoff_iso": "2026-05-22T21:06:33.642763+00:00",
+    "collection_cutoff_iso": "2026-05-22T21:12:47.295210+00:00",
     "max_per_topic": 25,
-    "llm_enabled": false,
+    "llm_enabled": true,
     "llm_concurrency": 2,
     "recent_history_days": 45,
     "successful_fetches": 4,
@@ -2615,7 +2615,7 @@
     "dropped_low_relevance_count": 0,
     "max_stored_papers": 800,
     "max_data_bytes": 8388608,
-    "data_bytes": 145052,
+    "data_bytes": 145051,
     "storage_trimmed_count": 0,
     "storage_trimmed_by_level": {
       "high": 0,
