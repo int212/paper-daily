@@ -1,59 +1,53 @@
+---
+name: Research Interests
+about: Configure paper search topics
+title: Research Interests
+labels: config
+assignees: ''
+---
+
+```json
 {
   "topics": [
     {
-      "id": "llm_low_precision_quantization",
-      "name": "大模型低精度量化",
-      "description": "关注大语言模型低比特量化、混合精度、量化感知训练、后训练量化、权重量化、激活量化、KV cache 量化以及量化对推理性能和精度的影响。",
+      "id": "video_generation",
+      "name": "Video Generation",
+      "description": "关注文本到视频、图像到视频、视频扩散模型、视频 Transformer、自回归视频生成、视频一致性、可控视频生成、长视频生成、视频编辑以及生成质量评估。",
       "keywords": [
-        "large language model quantization",
-        "LLM quantization",
-        "low-bit quantization",
-        "post-training quantization",
-        "weight-only quantization",
-        "activation quantization",
-        "mixed precision",
-        "FP8",
-        "INT4",
-        "INT8",
-        "KV cache quantization"
+        "video generation",
+        "text-to-video generation",
+        "image-to-video generation",
+        "video diffusion model",
+        "diffusion transformer video",
+        "video transformer",
+        "autoregressive video generation",
+        "controllable video generation",
+        "long video generation",
+        "video editing",
+        "temporal consistency",
+        "video synthesis"
       ],
-      "arxiv_categories": ["cs.CL", "cs.LG", "cs.AI", "cs.DC"]
+      "arxiv_categories": ["cs.CV", "cs.LG", "cs.AI", "cs.MM"]
     },
     {
-      "id": "tensor_compute_unit_architecture",
-      "name": "张量计算单元结构",
-      "description": "关注 GPU/NPU/TPU 张量计算单元、矩阵乘加阵列、数据流架构、片上存储层次、低精度张量核、AI 加速器微架构和算子映射。",
+      "id": "video_world_model",
+      "name": "Video World Model",
+      "description": "关注基于视频的世界模型、物理世界模拟、未来帧预测、动作条件视频预测、交互式环境建模、机器人与自动驾驶中的世界模型、可规划视频表示以及生成式仿真。",
       "keywords": [
-        "tensor processing unit",
-        "tensor core",
-        "matrix multiply unit",
-        "systolic array",
-        "AI accelerator architecture",
-        "NPU architecture",
-        "GPU tensor core",
-        "low precision tensor compute",
-        "dataflow architecture",
-        "on-chip memory hierarchy"
+        "video world model",
+        "world model",
+        "video prediction",
+        "future frame prediction",
+        "action-conditioned video prediction",
+        "physical world model",
+        "generative simulation",
+        "interactive world model",
+        "embodied AI world model",
+        "robotics world model",
+        "driving world model",
+        "planning with video"
       ],
-      "arxiv_categories": ["cs.AR", "cs.DC", "cs.LG", "cs.PF"]
-    },
-    {
-      "id": "llm_inference_cluster_communication",
-      "name": "大模型推理集群通信优化",
-      "description": "关注分布式大模型推理、prefill/decode 分离、张量并行、流水并行、专家并行、跨节点通信、调度、负载均衡和 serving 系统吞吐延迟优化。",
-      "keywords": [
-        "LLM inference serving",
-        "distributed inference",
-        "inference cluster",
-        "tensor parallelism",
-        "pipeline parallelism",
-        "expert parallelism",
-        "all-reduce",
-        "collective communication",
-        "prefill decode disaggregation",
-        "serving scheduler"
-      ],
-      "arxiv_categories": ["cs.DC", "cs.PF", "cs.CL", "cs.LG"]
+      "arxiv_categories": ["cs.CV", "cs.LG", "cs.AI", "cs.RO"]
     },
     {
       "id": "kvcache_compression_storage_scheduling",
@@ -72,6 +66,67 @@
         "LLM serving memory"
       ],
       "arxiv_categories": ["cs.CL", "cs.LG", "cs.DC", "cs.PF"]
+    },
+    {
+      "id": "diffusion_rl",
+      "name": "DiffusionRL",
+      "description": "关注扩散模型中的强化学习优化、奖励对齐、偏好优化、RL fine-tuning、多任务扩散策略优化，以及文本到图像/视频生成模型的可控性、审美、人类偏好和安全对齐。",
+      "keywords": [
+        "DiffusionRL",
+        "diffusion reinforcement learning",
+        "reinforcement learning for diffusion models",
+        "RL fine-tuning diffusion models",
+        "reward optimization diffusion models",
+        "preference optimization diffusion models",
+        "diffusion model alignment",
+        "text-to-image reinforcement learning",
+        "text-to-video reinforcement learning",
+        "multi-reward diffusion training",
+        "policy gradient diffusion models",
+        "PPO diffusion models"
+      ],
+      "arxiv_categories": ["cs.LG", "cs.CV", "cs.AI", "cs.CL"]
+    },
+    {
+      "id": "opd_on_policy_distillation",
+      "name": "OPD / On-Policy Distillation",
+      "description": "关注 On-Policy Distillation、Online Policy Distillation、教师-学生策略蒸馏、token-level 反馈、扩散模型 OPD、多任务生成模型蒸馏，以及 RL 与蒸馏结合的低方差训练方法。",
+      "keywords": [
+        "on-policy distillation",
+        "online policy distillation",
+        "OPD",
+        "DiffusionOPD",
+        "asymmetric on-policy distillation",
+        "AOPD",
+        "policy distillation",
+        "teacher student distillation",
+        "token-level teacher feedback",
+        "trajectory distillation",
+        "multi-task policy distillation",
+        "distillation for diffusion models"
+      ],
+      "arxiv_categories": ["cs.LG", "cs.AI", "cs.CL", "cs.CV"]
+    },
+    {
+      "id": "sparse_attention",
+      "name": "Sparse Attention",
+      "description": "关注稀疏注意力、长上下文高效注意力、块稀疏/滑窗/全局局部混合注意力、动态 token 选择、线性/近线性注意力，以及用于大模型、视频生成和长序列建模的高效 Transformer 架构。",
+      "keywords": [
+        "sparse attention",
+        "block sparse attention",
+        "sliding window attention",
+        "local attention",
+        "global attention",
+        "dynamic sparse attention",
+        "efficient attention",
+        "linear attention",
+        "long context attention",
+        "long sequence transformer",
+        "token pruning",
+        "attention sparsity",
+        "efficient transformer"
+      ],
+      "arxiv_categories": ["cs.LG", "cs.CL", "cs.CV", "cs.DC"]
     }
   ]
 }
