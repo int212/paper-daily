@@ -1,6 +1,6 @@
 {
-  "generated_at": "Fri, 29 May 2026 21:34:10 +0000",
-  "generated_at_iso": "2026-05-29T21:34:10.589583+00:00",
+  "generated_at": "Fri, 29 May 2026 21:35:45 +0000",
+  "generated_at_iso": "2026-05-29T21:35:45.700836+00:00",
   "config_source": "file",
   "topics": [
     {
@@ -252,8 +252,8 @@
         "why_relevant": "关键词命中：video world model、world model；arXiv 分类重合：cs.AI、cs.CV、cs.LG、cs.RO"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.29843v1",
@@ -523,8 +523,8 @@
         "why_relevant": "关键词命中：on-policy distillation、OPD、policy distillation；arXiv 分类重合：cs.AI、cs.CL"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.28396v1",
@@ -623,8 +623,8 @@
         "why_relevant": "关键词命中：on-policy distillation、OPD、policy distillation；arXiv 分类重合：cs.AI、cs.LG"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.27255v1",
@@ -725,8 +725,8 @@
         "why_relevant": "关键词命中：on-policy distillation、OPD、policy distillation；arXiv 分类重合：cs.AI、cs.CL"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.27028v1",
@@ -824,8 +824,8 @@
         "why_relevant": "关键词命中：on-policy distillation、OPD、policy distillation；arXiv 分类重合：cs.AI、cs.LG"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.25378v2",
@@ -926,8 +926,8 @@
         "why_relevant": "关键词命中：on-policy distillation、policy distillation；arXiv 分类重合：cs.AI、cs.CV"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.27140v1",
@@ -1022,8 +1022,8 @@
         "why_relevant": "关键词命中：online policy distillation、OPD、policy distillation；arXiv 分类重合：cs.AI"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.27115v1",
@@ -1121,8 +1121,8 @@
         "why_relevant": "关键词命中：on-policy distillation、OPD、policy distillation；arXiv 分类重合：cs.AI"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.27095v1",
@@ -1222,8 +1222,8 @@
         "why_relevant": "关键词命中：on-policy distillation、OPD、policy distillation；arXiv 分类重合：cs.LG"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.26844v1",
@@ -1324,8 +1324,8 @@
         "why_relevant": "关键词命中：on-policy distillation、OPD、policy distillation；arXiv 分类重合：cs.LG"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.30083v1",
@@ -1430,8 +1430,8 @@
         "why_relevant": "关键词命中：video generation、autoregressive video generation、video synthesis；arXiv 分类重合：cs.CV"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.25582v1",
@@ -1523,8 +1523,8 @@
         "why_relevant": "关键词命中：policy distillation；arXiv 分类重合：cs.AI、cs.LG"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.25054v1",
@@ -1709,8 +1709,8 @@
         "why_relevant": "关键词命中：video generation、video diffusion model；arXiv 分类重合：cs.CV"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.30116v1",
@@ -1809,8 +1809,8 @@
         "why_relevant": "关键词命中：video diffusion model、temporal consistency；arXiv 分类重合：cs.CV、cs.LG"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.27980v1",
@@ -1902,8 +1902,8 @@
         "why_relevant": "关键词命中：sliding window attention、global attention；arXiv 分类重合：cs.CL"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.25367v1",
@@ -2082,8 +2082,8 @@
         "why_relevant": "关键词命中：video world model、world model、interactive world model；arXiv 分类重合：cs.CV"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.29343v1",
@@ -2186,8 +2186,8 @@
         "why_relevant": "关键词命中：on-policy distillation、OPD、policy distillation；arXiv 分类重合：cs.CL"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.29509v1",
@@ -2283,8 +2283,8 @@
         "why_relevant": "关键词命中：video generation、temporal consistency；arXiv 分类重合：cs.CV"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.28384v1",
@@ -2375,8 +2375,8 @@
         "why_relevant": "关键词命中：local attention、efficient transformer；arXiv 分类重合：cs.LG"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.28303v1",
@@ -2473,8 +2473,8 @@
         "why_relevant": "关键词命中：on-policy distillation、asymmetric on-policy distillation、policy distillation；arXiv 分类重合：cs.AI"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.29604v1",
@@ -2721,8 +2721,8 @@
         "why_relevant": "关键词命中：video generation、video diffusion model；arXiv 分类重合：cs.CV"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.30174v1",
@@ -2821,8 +2821,8 @@
         "why_relevant": "关键词命中：video generation、video diffusion model；arXiv 分类重合：cs.CV"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.29357v1",
@@ -2924,8 +2924,8 @@
         "why_relevant": "arXiv 分类重合：cs.AI、cs.LG"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.26678v1",
@@ -3021,8 +3021,8 @@
         "why_relevant": "关键词命中：KV cache compression；arXiv 分类重合：cs.CL"
       },
       "first_seen_at": "2026-05-29T20:54:13.788108+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.26266v1",
@@ -3117,8 +3117,8 @@
         "why_relevant": "关键词命中：video diffusion model；arXiv 分类重合：cs.AI、cs.CV、cs.LG"
       },
       "first_seen_at": "2026-05-29T20:54:13.788108+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.25475v1",
@@ -3216,8 +3216,8 @@
         "why_relevant": "关键词命中：long context inference；arXiv 分类重合：cs.CL"
       },
       "first_seen_at": "2026-05-29T20:54:13.788108+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.24786v1",
@@ -3308,8 +3308,8 @@
         "why_relevant": "关键词命中：KV cache eviction；arXiv 分类重合：cs.LG"
       },
       "first_seen_at": "2026-05-29T20:54:13.788108+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.30317v1",
@@ -3406,8 +3406,8 @@
         "why_relevant": "关键词命中：video generation、text-to-video generation；arXiv 分类重合：cs.CV"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.30090v1",
@@ -3506,8 +3506,8 @@
         "why_relevant": "关键词命中：video generation、temporal consistency；arXiv 分类重合：cs.CV"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.29495v1",
@@ -3604,8 +3604,8 @@
         "why_relevant": "关键词命中：on-policy distillation、policy distillation；arXiv 分类重合：cs.LG"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.29157v1",
@@ -3703,8 +3703,8 @@
         "why_relevant": "关键词命中：efficient attention、linear attention；arXiv 分类重合：cs.CL、cs.LG"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.28139v1",
@@ -3798,8 +3798,8 @@
         "why_relevant": "关键词命中：on-policy distillation、policy distillation；arXiv 分类重合：cs.AI"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.27336v1",
@@ -3896,8 +3896,8 @@
         "why_relevant": "关键词命中：video generation、text-to-video generation；arXiv 分类重合：cs.CV"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.29756v1",
@@ -4148,8 +4148,8 @@
         "why_relevant": "关键词命中：policy distillation；arXiv 分类重合：cs.CL"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.28816v1",
@@ -4249,8 +4249,8 @@
         "why_relevant": "关键词命中：video generation；arXiv 分类重合：cs.CV"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.28803v1",
@@ -4425,8 +4425,8 @@
         "why_relevant": "关键词命中：linear attention；arXiv 分类重合：cs.LG"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.27891v1",
@@ -4523,8 +4523,8 @@
         "why_relevant": "关键词命中：video generation；arXiv 分类重合：cs.AI、cs.CV"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.27589v1",
@@ -4624,8 +4624,8 @@
         "why_relevant": "关键词命中：world model；arXiv 分类重合：cs.CV"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.27491v1",
@@ -4730,8 +4730,8 @@
         "why_relevant": "关键词命中：world model；arXiv 分类重合：cs.RO"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.27003v1",
@@ -5063,8 +5063,8 @@
         "why_relevant": "关键词命中：video generation、video diffusion model；arXiv 分类重合：cs.CV"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.28317v1",
@@ -5155,8 +5155,8 @@
         "why_relevant": "arXiv 分类重合：cs.AI、cs.LG"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.26339v1",
@@ -5327,8 +5327,8 @@
         "why_relevant": "关键词命中：video generation、text-to-video generation；arXiv 分类重合：cs.CV"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.29360v1",
@@ -5426,8 +5426,8 @@
         "why_relevant": "关键词命中：world model；arXiv 分类重合：cs.AI"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.28111v1",
@@ -5522,8 +5522,8 @@
         "why_relevant": "关键词命中：world model；arXiv 分类重合：cs.LG"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.25620v1",
@@ -5615,8 +5615,8 @@
         "why_relevant": "关键词命中：world model；arXiv 分类重合：cs.AI"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.25333v1",
@@ -5714,8 +5714,8 @@
         "why_relevant": "关键词命中：video world model、world model；arXiv 分类重合：cs.CV"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.29032v1",
@@ -5805,8 +5805,8 @@
         "why_relevant": "arXiv 分类重合：cs.LG"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.28810v1",
@@ -5901,8 +5901,8 @@
         "why_relevant": "arXiv 分类重合：cs.LG"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.28544v1",
@@ -5992,8 +5992,8 @@
         "why_relevant": "arXiv 分类重合：cs.CV"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.28230v1",
@@ -6083,8 +6083,8 @@
         "why_relevant": "arXiv 分类重合：cs.CV"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.26282v1",
@@ -6178,8 +6178,8 @@
         "why_relevant": "arXiv 分类重合：cs.LG"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.25469v1",
@@ -6361,8 +6361,8 @@
         "why_relevant": "arXiv 分类重合：cs.CV"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.25085v1",
@@ -6451,8 +6451,8 @@
         "why_relevant": "arXiv 分类重合：cs.AI、cs.LG"
       },
       "first_seen_at": "2026-05-29T20:54:13.788108+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.28811v1",
@@ -6545,8 +6545,8 @@
         "why_relevant": "关键词命中：video diffusion model；arXiv 分类重合：cs.CV"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.28394v1",
@@ -6637,8 +6637,8 @@
         "why_relevant": "关键词命中：video diffusion model；arXiv 分类重合：cs.CV"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.26628v1",
@@ -6734,8 +6734,8 @@
         "why_relevant": "关键词命中：video generation、text-to-video generation；arXiv 分类重合：cs.AI"
       },
       "first_seen_at": "2026-05-29T20:54:13.788108+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.30325v1",
@@ -6831,8 +6831,8 @@
         "why_relevant": "关键词命中：sparse attention；arXiv 分类重合：cs.CV"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.29954v1",
@@ -6926,8 +6926,8 @@
         "why_relevant": "关键词命中：local attention；arXiv 分类重合：cs.CV"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.28277v1",
@@ -7023,8 +7023,8 @@
         "why_relevant": "关键词命中：world model；arXiv 分类重合：cs.AI"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.28035v1",
@@ -7132,8 +7132,8 @@
         "why_relevant": "关键词命中：video generation；arXiv 分类重合：cs.AI、cs.MM"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.27740v1",
@@ -7225,8 +7225,8 @@
         "why_relevant": "关键词命中：sparse attention；arXiv 分类重合：cs.CL"
       },
       "first_seen_at": "2026-05-29T20:54:13.788108+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.25803v1",
@@ -7318,8 +7318,8 @@
         "why_relevant": "关键词命中：global attention；arXiv 分类重合：cs.CV"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.25375v1",
@@ -7563,8 +7563,8 @@
         "why_relevant": "arXiv 分类重合：cs.CV"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.27646v1",
@@ -7657,8 +7657,8 @@
         "why_relevant": "arXiv 分类重合：cs.AI、cs.LG"
       },
       "first_seen_at": "2026-05-29T20:54:13.788108+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.25949v1",
@@ -7749,8 +7749,8 @@
         "why_relevant": "arXiv 分类重合：cs.AI、cs.LG"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.24930v1",
@@ -7838,8 +7838,8 @@
         "why_relevant": "arXiv 分类重合：cs.CL"
       },
       "first_seen_at": "2026-05-29T20:54:13.788108+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.30347v1",
@@ -7934,8 +7934,8 @@
         "why_relevant": "关键词命中：world model；arXiv 分类重合：cs.CV"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.28368v2",
@@ -8028,8 +8028,8 @@
         "why_relevant": "关键词命中：world model；arXiv 分类重合：cs.LG"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.28056v1",
@@ -8122,8 +8122,8 @@
         "why_relevant": "关键词命中：video generation；arXiv 分类重合：cs.CV"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.26109v1",
@@ -8220,8 +8220,8 @@
         "why_relevant": "关键词命中：local attention；arXiv 分类重合：cs.CV"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.25550v1",
@@ -8394,8 +8394,8 @@
         "why_relevant": "关键词命中：sparse attention；arXiv 分类重合：cs.CL"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.29930v1",
@@ -8484,8 +8484,8 @@
         "why_relevant": "arXiv 分类重合：cs.AI"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.29664v1",
@@ -8656,8 +8656,8 @@
         "why_relevant": "arXiv 分类重合：cs.AI、cs.CV"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.30100v1",
@@ -8747,8 +8747,8 @@
         "why_relevant": "关键词命中：world model；arXiv 分类重合：cs.LG"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.30073v1",
@@ -8845,8 +8845,8 @@
         "why_relevant": "关键词命中：video generation；arXiv 分类重合：cs.CV"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.26379v1",
@@ -8938,8 +8938,8 @@
         "why_relevant": "关键词命中：world model；arXiv 分类重合：cs.LG"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.27808v1",
@@ -9111,8 +9111,8 @@
         "why_relevant": "关键词命中：world model；arXiv 分类重合：cs.RO"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.25716v1",
@@ -9353,8 +9353,8 @@
         "why_relevant": "arXiv 分类重合：cs.LG"
       },
       "first_seen_at": "2026-05-29T21:15:20.799573+00:00",
-      "last_seen_at": "2026-05-29T21:23:02.448890+00:00",
-      "retained_from_previous_run": true
+      "last_seen_at": "2026-05-29T21:35:45.700836+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2605.28488v2",
@@ -9511,22 +9511,22 @@
   ],
   "stats": {
     "paper_count": 101,
-    "new_paper_count": 0,
-    "days": 1,
+    "new_paper_count": 78,
+    "days": 7,
     "collection_mode": "lookback",
-    "collection_cutoff_iso": "2026-05-28T21:34:10.589583+00:00",
+    "collection_cutoff_iso": "2026-05-22T21:35:45.700836+00:00",
     "max_per_topic": 25,
     "llm_enabled": true,
     "llm_concurrency": 2,
     "recent_history_days": 45,
     "successful_fetches": 6,
     "failed_fetches": 0,
-    "retained_paper_count": 101,
+    "retained_paper_count": 23,
     "retained_recent_low_count": 88,
     "dropped_low_relevance_count": 0,
     "max_stored_papers": 800,
     "max_data_bytes": 8388608,
-    "data_bytes": 494935,
+    "data_bytes": 495013,
     "storage_trimmed_count": 0,
     "storage_trimmed_by_level": {
       "high": 0,
