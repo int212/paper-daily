@@ -1,6 +1,6 @@
 {
-  "generated_at": "Tue, 22 Sep 2026 00:40:26 +0000",
-  "generated_at_iso": "2026-09-22T00:40:26.973595+00:00",
+  "generated_at": "Wed, 23 Sep 2026 00:12:25 +0000",
+  "generated_at_iso": "2026-09-23T00:12:25.666773+00:00",
   "config_source": "file",
   "topics": [
     {
@@ -4819,10 +4819,10 @@
     "failed_fetches": 6,
     "retained_paper_count": 47,
     "retained_recent_low_count": 21,
-    "dropped_low_relevance_count": 29,
+    "dropped_low_relevance_count": 0,
     "max_stored_papers": 800,
     "max_data_bytes": 8388608,
-    "data_bytes": 247540,
+    "data_bytes": 247539,
     "storage_trimmed_count": 0,
     "storage_trimmed_by_level": {
       "high": 0,
