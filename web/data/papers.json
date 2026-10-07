@@ -1,6 +1,6 @@
 {
-  "generated_at": "Tue, 06 Oct 2026 02:08:33 +0000",
-  "generated_at_iso": "2026-10-06T02:08:33.982444+00:00",
+  "generated_at": "Wed, 07 Oct 2026 01:20:24 +0000",
+  "generated_at_iso": "2026-10-07T01:20:24.171430+00:00",
   "config_source": "file",
   "topics": [
     {
@@ -936,6 +936,108 @@
       "first_seen_at": "2026-05-29T20:54:13.788108+00:00",
       "last_seen_at": "2026-05-29T21:12:47.295210+00:00",
       "retained_from_previous_run": true
+    },
+    {
+      "id": "2610.07654v1",
+      "source": "arXiv",
+      "title": "Does On-Policy Distillation for Safety Pose Backdoor Risks?",
+      "authors": [
+        "Jian Luo",
+        "Kehan Qi",
+        "Qingqiao Hu",
+        "Meilong Xu",
+        "Jiacheng Qiu",
+        "Weimin Lyu",
+        "Jiawei Zhou",
+        "Chao Chen"
+      ],
+      "summary": "On-policy distillation (OPD) has attracted growing attention as an effective way to transfer capabilities from teacher models to student models. Recent studies further explore OPD as a tool for improving large language model safety with promising results. However, these approaches typically assume that the teacher and training data are trustworthy. In this paper, we uncover an overlooked threat to OPD for safety: a safety-aligned but backdoored teacher can propagate its hidden malicious behavior to an initially clean student. Under our threat model, a poisoning rate as low as 3% results in an attack success rate (ASR) of up to 70% on the distilled student. We further identify two training choices that can amplify this risk. First, increasing the number of training epochs can lead to high ASR even at low poisoning rates. With only 10 poisoned samples, ASR reaches 67% after 16 epochs. Second, the commonly used top-k KL can accelerate backdoor transfer, causing trigger-conditioned harmful behavior to emerge earlier than sampled-token KL in most settings. Alongside these findings, we explore a simple mitigation, Lazy Defense, which clips KL rewards to make student updates less aggressive, limiting aggressive updates and slowing backdoor learning. Experiments show that Lazy Defense delays backdoor transfer in low poisoning rate settings. Together, our findings reveal that OPD can propagate backdoors, highlighting the need to address the safety risks of OPD.",
+      "published": "2026-10-06T02:50:07Z",
+      "updated": "2026-10-06T02:50:07Z",
+      "paper_url": "http://arxiv.org/abs/2610.07654v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.07654v1",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "seed_topic": "opd_on_policy_distillation",
+      "matches": [
+        {
+          "topic_id": "opd_on_policy_distillation",
+          "topic_name": "OPD / On-Policy Distillation",
+          "score": 0.49,
+          "level": "medium",
+          "reason": "关键词命中：on-policy distillation、OPD、policy distillation；arXiv 分类重合：cs.AI、cs.LG",
+          "keyword_hits": [
+            "on-policy distillation",
+            "OPD",
+            "policy distillation"
+          ]
+        },
+        {
+          "topic_id": "diffusion_rl",
+          "topic_name": "DiffusionRL",
+          "score": 0.344,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.AI、cs.LG",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "video_world_model",
+          "topic_name": "Video World Model",
+          "score": 0.219,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.AI、cs.LG",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "video_generation",
+          "topic_name": "Video Generation",
+          "score": 0.188,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.AI、cs.LG",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "sparse_attention",
+          "topic_name": "Sparse Attention",
+          "score": 0.125,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.LG",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "kvcache_compression_storage_scheduling",
+          "topic_name": "KV cache 压缩与存储调度",
+          "score": 0.094,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.LG",
+          "keyword_hits": []
+        }
+      ],
+      "best_match": {
+        "topic_id": "opd_on_policy_distillation",
+        "topic_name": "OPD / On-Policy Distillation",
+        "score": 0.49,
+        "level": "medium",
+        "reason": "关键词命中：on-policy distillation、OPD、policy distillation；arXiv 分类重合：cs.AI、cs.LG",
+        "keyword_hits": [
+          "on-policy distillation",
+          "OPD",
+          "policy distillation"
+        ]
+      },
+      "chinese_summary": {
+        "problem": "未配置模型 API，当前仅基于标题、摘要和关键词生成基础摘要。",
+        "method": "On-policy distillation (OPD) has attracted growing attention as an effective way to transfer capabilities from teacher models to student models.",
+        "innovation": "需要接入模型 API 后自动抽取更精确的中文创新点。",
+        "evidence": "来源摘要可在论文原文中核验。",
+        "limitations": "基础模式不会阅读全文，也不会进行深度技术对比。",
+        "why_relevant": "关键词命中：on-policy distillation、OPD、policy distillation；arXiv 分类重合：cs.AI、cs.LG"
+      },
+      "first_seen_at": "2026-10-07T01:20:24.171430+00:00",
+      "last_seen_at": "2026-10-07T01:20:24.171430+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2609.36608v1",
@@ -2377,6 +2479,103 @@
       "first_seen_at": "2026-08-07T01:30:51.232306+00:00",
       "last_seen_at": "2026-08-07T01:30:51.232306+00:00",
       "retained_from_previous_run": true
+    },
+    {
+      "id": "2610.07874v1",
+      "source": "arXiv",
+      "title": "On-Policy Distillation with Negative-Policy Rollouts",
+      "authors": [
+        "Jaehui Hwang",
+        "Dongyoon Han",
+        "Sangdoo Yun",
+        "Byeongho Heo"
+      ],
+      "summary": "On-policy distillation (OPD) has been widely studied as a post-training method in which a student model obtains token-level supervision from a stronger teacher on its own rollouts. Recent studies have improved OPD through alternative distillation reward formulations and teacher configurations, while the objective of distillation remains centered on mimicking the teacher. However, when a stronger teacher has limited distributional overlap with the student, such positive guidance can provide insufficient learning signals. In this work, we introduce Negative-Policy OPD (NP-OPD), which complements teacher supervision with rollouts from a lower-performing, lower-capability negative policy that serves as a negative reference for the student. Rather than modifying the distillation reward formulation, NP-OPD introduces the negative policy at the rollout stage, continuously supplying tokens preferred by the negative policy over the teacher so that they remain exposed to teacher supervision throughout training. This provides an explicit negative signal through negative-policy rollouts while preserving the positive teacher supervision used in OPD. Through extensive experiments, we show that NP-OPD improves OPD across model scales, generation modes, reasoning domains, and different OPD variants. Furthermore, our analyses show that NP-OPD effectively suppresses tokens preferred by the negative policy over the teacher and moves the student away from the negative policy. These results support our design of introducing negative signals through negative-policy rollouts and provide new insight into the role of the rollout policy in OPD. Code will be available at https://github.com/naver-ai/np-opd.",
+      "published": "2026-10-06T07:25:03Z",
+      "updated": "2026-10-06T07:25:03Z",
+      "paper_url": "http://arxiv.org/abs/2610.07874v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.07874v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "seed_topic": "opd_on_policy_distillation",
+      "matches": [
+        {
+          "topic_id": "opd_on_policy_distillation",
+          "topic_name": "OPD / On-Policy Distillation",
+          "score": 0.427,
+          "level": "medium",
+          "reason": "关键词命中：on-policy distillation、OPD、policy distillation；arXiv 分类重合：cs.LG",
+          "keyword_hits": [
+            "on-policy distillation",
+            "OPD",
+            "policy distillation"
+          ]
+        },
+        {
+          "topic_id": "diffusion_rl",
+          "topic_name": "DiffusionRL",
+          "score": 0.281,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.LG",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "video_generation",
+          "topic_name": "Video Generation",
+          "score": 0.156,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.LG",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "video_world_model",
+          "topic_name": "Video World Model",
+          "score": 0.156,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.LG",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "sparse_attention",
+          "topic_name": "Sparse Attention",
+          "score": 0.094,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.LG",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "kvcache_compression_storage_scheduling",
+          "topic_name": "KV cache 压缩与存储调度",
+          "score": 0.062,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.LG",
+          "keyword_hits": []
+        }
+      ],
+      "best_match": {
+        "topic_id": "opd_on_policy_distillation",
+        "topic_name": "OPD / On-Policy Distillation",
+        "score": 0.427,
+        "level": "medium",
+        "reason": "关键词命中：on-policy distillation、OPD、policy distillation；arXiv 分类重合：cs.LG",
+        "keyword_hits": [
+          "on-policy distillation",
+          "OPD",
+          "policy distillation"
+        ]
+      },
+      "chinese_summary": {
+        "problem": "未配置模型 API，当前仅基于标题、摘要和关键词生成基础摘要。",
+        "method": "On-policy distillation (OPD) has been widely studied as a post-training method in which a student model obtains token-level supervision from a stronger teacher on its own rollouts.",
+        "innovation": "需要接入模型 API 后自动抽取更精确的中文创新点。",
+        "evidence": "来源摘要可在论文原文中核验。",
+        "limitations": "基础模式不会阅读全文，也不会进行深度技术对比。",
+        "why_relevant": "关键词命中：on-policy distillation、OPD、policy distillation；arXiv 分类重合：cs.LG"
+      },
+      "first_seen_at": "2026-10-07T01:20:24.171430+00:00",
+      "last_seen_at": "2026-10-07T01:20:24.171430+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2609.39120v1",
@@ -4078,6 +4277,100 @@
       "retained_from_previous_run": true
     },
     {
+      "id": "2610.07782v1",
+      "source": "arXiv",
+      "title": "Persistent Memory in Multi-Agent LLM Inference: What It Costs, What It Buys, and When You Can Tell",
+      "authors": [
+        "Hochan Son",
+        "Kyungdoe Han",
+        "Jaehan Koh",
+        "Xiaowu Dai",
+        "Wenlu Xu",
+        "Guang Cheng"
+      ],
+      "summary": "Decomposing long-context inference across cooperating agents bounds the active KV cache per call rather than total evidence, which matters when KV-cache memory binds. Many such systems add a persistent tier storing and recalling reasoning traces, usually validated by an ablation reporting an accuracy gain. We measure both on one three-tier agent architecture. Decomposition delivers: peak KV working set of 14.3 MiB per query against 35.5 and 35.3 MiB for single-pass and retrieval-augmented baselines. The persistent tier does not: across eight controlled dataset pairs at n=100 per arm it costs +0.368 MiB [+0.167, +0.590] of peak cache and produces no detectable accuracy change (+0.015, 95% CI [-0.011, +0.046]). We argue the null is structural: single-question benchmarks supply each item with its own evidence and score it independently, and correctness requires resetting stored traces between conditions, so recall has nothing informative to retrieve. Reaching it took four measurement corrections -- three inflating the apparent benefit, the fourth making an effect that size look resolvable -- none visible in the results table. We give the conditions an agent-memory ablation must satisfy and detection procedures that need no knowledge of the specific defect.",
+      "published": "2026-10-06T05:17:44Z",
+      "updated": "2026-10-06T05:17:44Z",
+      "paper_url": "http://arxiv.org/abs/2610.07782v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.07782v1",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.DC",
+        "cs.LG"
+      ],
+      "seed_topic": "kvcache_compression_storage_scheduling",
+      "matches": [
+        {
+          "topic_id": "kvcache_compression_storage_scheduling",
+          "topic_name": "KV cache 压缩与存储调度",
+          "score": 0.406,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.CL、cs.DC、cs.LG",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "diffusion_rl",
+          "topic_name": "DiffusionRL",
+          "score": 0.281,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.AI、cs.CL、cs.LG",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "opd_on_policy_distillation",
+          "topic_name": "OPD / On-Policy Distillation",
+          "score": 0.281,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.AI、cs.CL、cs.LG",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "sparse_attention",
+          "topic_name": "Sparse Attention",
+          "score": 0.25,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.CL、cs.DC、cs.LG",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "video_generation",
+          "topic_name": "Video Generation",
+          "score": 0.188,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.AI、cs.LG",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "video_world_model",
+          "topic_name": "Video World Model",
+          "score": 0.156,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.AI、cs.LG",
+          "keyword_hits": []
+        }
+      ],
+      "best_match": {
+        "topic_id": "kvcache_compression_storage_scheduling",
+        "topic_name": "KV cache 压缩与存储调度",
+        "score": 0.406,
+        "level": "low",
+        "reason": "arXiv 分类重合：cs.CL、cs.DC、cs.LG",
+        "keyword_hits": []
+      },
+      "chinese_summary": {
+        "problem": "未配置模型 API，当前仅基于标题、摘要和关键词生成基础摘要。",
+        "method": "Decomposing long-context inference across cooperating agents bounds the active KV cache per call rather than total evidence, which matters when KV-cache memory binds.",
+        "innovation": "需要接入模型 API 后自动抽取更精确的中文创新点。",
+        "evidence": "来源摘要可在论文原文中核验。",
+        "limitations": "基础模式不会阅读全文，也不会进行深度技术对比。",
+        "why_relevant": "arXiv 分类重合：cs.CL、cs.DC、cs.LG"
+      },
+      "first_seen_at": "2026-10-07T01:20:24.171430+00:00",
+      "last_seen_at": "2026-10-07T01:20:24.171430+00:00",
+      "retained_from_previous_run": false
+    },
+    {
       "id": "2609.36599v1",
       "source": "arXiv",
       "title": "Scaling Video Generation for Reasoning: At What Cost?",
@@ -4362,7 +4655,7 @@
       },
       "first_seen_at": "2026-10-06T02:08:33.982444+00:00",
       "last_seen_at": "2026-10-06T02:08:33.982444+00:00",
-      "retained_from_previous_run": false
+      "retained_from_previous_run": true
     },
     {
       "id": "2609.39150v1",
@@ -4857,7 +5150,7 @@
       },
       "first_seen_at": "2026-10-06T02:08:33.982444+00:00",
       "last_seen_at": "2026-10-06T02:08:33.982444+00:00",
-      "retained_from_previous_run": false
+      "retained_from_previous_run": true
     },
     {
       "id": "2608.27328v1",
@@ -5060,6 +5353,189 @@
       "retained_from_previous_run": true
     },
     {
+      "id": "2610.07911v1",
+      "source": "arXiv",
+      "title": "Diverse Motion Customization via Control-based Dynamic Optimization",
+      "authors": [
+        "Youngyoon Choi",
+        "Kihyun Kim",
+        "Jeongwoo Shin",
+        "Joonseok Lee"
+      ],
+      "summary": "Despite recent advances in video generation, motion customization remains challenging due to content leakage, where appearance attributes from the reference video unintentionally propagate into the generated output. We identify this issue as a consequence of the generative process collapsing toward the reference video, which arises from formulating the learning objective as a direct regression on the reference. To address this, we propose Control-based Motion Customization (CMC), a principled training framework that is structurally robust to content leakage. Our key idea is to steer generative dynamics toward desired motion while avoiding collapse toward the reference video, which we formalize using Stochastic Optimal Control (SOC). Under this formulation, customized videos acquire the target motion yet remain within the pre-trained model's prompt-conditional distribution, where appearance is determined by the text prompt rather than the reference video. Furthermore, to improve efficiency, we tailor the SOC formulation to motion customization by eliminating the need for an explicit reward and introducing a timestep-adaptive motion cost that focuses only on early generative stages, accelerating training by 2.5 times. Extensive experiments demonstrate that CMC effectively mitigates content leakage and achieves competitive motion fidelity while preserving the diversity of the base model across diverse scenarios.",
+      "published": "2026-10-06T07:55:27Z",
+      "updated": "2026-10-06T07:55:27Z",
+      "paper_url": "http://arxiv.org/abs/2610.07911v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.07911v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "seed_topic": "video_generation",
+      "matches": [
+        {
+          "topic_id": "diffusion_rl",
+          "topic_name": "DiffusionRL",
+          "score": 0.375,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.AI、cs.CV",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "video_generation",
+          "topic_name": "Video Generation",
+          "score": 0.321,
+          "level": "low",
+          "reason": "关键词命中：video generation；arXiv 分类重合：cs.AI、cs.CV",
+          "keyword_hits": [
+            "video generation"
+          ]
+        },
+        {
+          "topic_id": "video_world_model",
+          "topic_name": "Video World Model",
+          "score": 0.219,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.AI、cs.CV",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "opd_on_policy_distillation",
+          "topic_name": "OPD / On-Policy Distillation",
+          "score": 0.188,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.AI、cs.CV",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "sparse_attention",
+          "topic_name": "Sparse Attention",
+          "score": 0.094,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.CV",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "kvcache_compression_storage_scheduling",
+          "topic_name": "KV cache 压缩与存储调度",
+          "score": 0.0,
+          "level": "low",
+          "reason": "文本语义与方向描述存在弱相关，需要人工复核。",
+          "keyword_hits": []
+        }
+      ],
+      "best_match": {
+        "topic_id": "diffusion_rl",
+        "topic_name": "DiffusionRL",
+        "score": 0.375,
+        "level": "low",
+        "reason": "arXiv 分类重合：cs.AI、cs.CV",
+        "keyword_hits": []
+      },
+      "chinese_summary": {
+        "problem": "未配置模型 API，当前仅基于标题、摘要和关键词生成基础摘要。",
+        "method": "Despite recent advances in video generation, motion customization remains challenging due to content leakage, where appearance attributes from the reference video unintentionally propagate into the generated output.",
+        "innovation": "需要接入模型 API 后自动抽取更精确的中文创新点。",
+        "evidence": "来源摘要可在论文原文中核验。",
+        "limitations": "基础模式不会阅读全文，也不会进行深度技术对比。",
+        "why_relevant": "arXiv 分类重合：cs.AI、cs.CV"
+      },
+      "first_seen_at": "2026-10-07T01:20:24.171430+00:00",
+      "last_seen_at": "2026-10-07T01:20:24.171430+00:00",
+      "retained_from_previous_run": false
+    },
+    {
+      "id": "2610.07720v1",
+      "source": "arXiv",
+      "title": "RefRoute: Decoupling Conditioning Cost from References via Compact Residual Conditioning and Spatial Routing",
+      "authors": [
+        "Wanning He",
+        "Yuyao Zhang",
+        "Yu-Wing Tai"
+      ],
+      "summary": "Multi-reference image generation requires preserving the appearance of multiple subjects while composing them into a coherent scene. However, existing diffusion transformers commonly encode references as dense visual token grids and jointly process them with global attention, making conditioning increasingly expensive as the number and resolution of references grow. We present RefRoute, a framework that addresses both reference representation cost and attention overhead through two complementary mechanisms. Compact residual conditioning combines low-resolution latent tokens with lightweight residual features extracted from full-resolution pixels, reducing reference token counts while retaining fine-grained appearance cues. Condition routing and attention routing align reference tokens with their assigned target regions and restrict cross-reference interactions, while allowing selective reference access beyond region boundaries for scene integration. We further introduce RefRoute-Data for training many-reference generation models and ManyRef100, a benchmark spanning human, object, and mixed compositions with 10-17 references. After many-reference fine-tuning, RefRoute achieves an overall Weighted-Ref-VIEScore of 36.06 on ManyRef100, compared with 8.88 for FLUX.2-Klein-9B. Separate inference-cost evaluations show substantially slower latency growth as the reference count increases: at 16 references, our 50-step and 4-step configurations achieve $18.3\\times$ and $14.2\\times$ speedups over their corresponding FLUX baselines, respectively. These results establish compact reference representations and spatially routed attention as an effective approach to scalable many-reference image generation.",
+      "published": "2026-10-06T04:16:27Z",
+      "updated": "2026-10-06T04:16:27Z",
+      "paper_url": "http://arxiv.org/abs/2610.07720v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.07720v1",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "seed_topic": "sparse_attention",
+      "matches": [
+        {
+          "topic_id": "diffusion_rl",
+          "topic_name": "DiffusionRL",
+          "score": 0.375,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.CV、cs.LG",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "opd_on_policy_distillation",
+          "topic_name": "OPD / On-Policy Distillation",
+          "score": 0.312,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.CV、cs.LG",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "sparse_attention",
+          "topic_name": "Sparse Attention",
+          "score": 0.259,
+          "level": "low",
+          "reason": "关键词命中：global attention；arXiv 分类重合：cs.CV、cs.LG",
+          "keyword_hits": [
+            "global attention"
+          ]
+        },
+        {
+          "topic_id": "video_generation",
+          "topic_name": "Video Generation",
+          "score": 0.25,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.CV、cs.LG",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "video_world_model",
+          "topic_name": "Video World Model",
+          "score": 0.156,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.CV、cs.LG",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "kvcache_compression_storage_scheduling",
+          "topic_name": "KV cache 压缩与存储调度",
+          "score": 0.125,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.LG",
+          "keyword_hits": []
+        }
+      ],
+      "best_match": {
+        "topic_id": "diffusion_rl",
+        "topic_name": "DiffusionRL",
+        "score": 0.375,
+        "level": "low",
+        "reason": "arXiv 分类重合：cs.CV、cs.LG",
+        "keyword_hits": []
+      },
+      "chinese_summary": {
+        "problem": "未配置模型 API，当前仅基于标题、摘要和关键词生成基础摘要。",
+        "method": "Multi-reference image generation requires preserving the appearance of multiple subjects while composing them into a coherent scene.",
+        "innovation": "需要接入模型 API 后自动抽取更精确的中文创新点。",
+        "evidence": "来源摘要可在论文原文中核验。",
+        "limitations": "基础模式不会阅读全文，也不会进行深度技术对比。",
+        "why_relevant": "arXiv 分类重合：cs.CV、cs.LG"
+      },
+      "first_seen_at": "2026-10-07T01:20:24.171430+00:00",
+      "last_seen_at": "2026-10-07T01:20:24.171430+00:00",
+      "retained_from_previous_run": false
+    },
+    {
       "id": "2610.05861v1",
       "source": "arXiv",
       "title": "Imagine to Act: High-Fidelity Data Synthesis via Image Editing World Model for Scalable GUI Agent Training",
@@ -5152,7 +5628,7 @@
       },
       "first_seen_at": "2026-10-06T02:08:33.982444+00:00",
       "last_seen_at": "2026-10-06T02:08:33.982444+00:00",
-      "retained_from_previous_run": false
+      "retained_from_previous_run": true
     },
     {
       "id": "2609.38733v1",
@@ -6808,7 +7284,7 @@
       },
       "first_seen_at": "2026-10-06T02:08:33.982444+00:00",
       "last_seen_at": "2026-10-06T02:08:33.982444+00:00",
-      "retained_from_previous_run": false
+      "retained_from_previous_run": true
     },
     {
       "id": "2609.39182v1",
@@ -7582,6 +8058,282 @@
       },
       "first_seen_at": "2026-10-06T02:08:33.982444+00:00",
       "last_seen_at": "2026-10-06T02:08:33.982444+00:00",
+      "retained_from_previous_run": true
+    },
+    {
+      "id": "2610.08033v1",
+      "source": "arXiv",
+      "title": "Learning in Dreams, Winning in Reality: A Continuous Dyna Loop for a Ten-Hero MOBA",
+      "authors": [
+        "Jordy Kieto"
+      ],
+      "summary": "World models are usually judged from the inside: by prediction loss, by the return a policy earns in imagination, or by how convincing their frames look. We judge one from the outside. We learn a structured, multi-agent world model of a complete ten-hero MOBA (206 units, every hero acting every tick, games of up to 6,000 ticks), train a policy only inside it with 1,400-tick free-running imagined episodes, and measure that policy in the real game against the opponent the game ships with. The real game never provides a gradient; it provides the policy's own games as training data for the world model, and an online evaluation that selects and anchors the policy. Run as a continuous asynchronous Dyna loop, the policy wins 70.2% of real games as radiant (421 of 600; 95% CI 66.4-73.7) on seeds never used for any decision, up from 0% for dream training alone and 33.7% before the loop. It wins none as dire, and neither does the shipped opponent when it plays itself. Four findings explain the result. Model exploitation is invisible from inside the dream: every unanchored run collapsed within a few updates while no in-dream metric tracked the collapse. A world model that is accurate on its training corpus is badly wrong on the policy's own games, and Dyna repairs it there, which is worth +9.2 points of real win rate with the policy recipe held fixed. Finally, the policy inherits its world model's fidelity profile mechanic by mechanic: the model represents the macro game but not crowd control, cast timing or lethality, and the policy wins by map-wide pressure with almost no coordinated fighting. We release the world model, the dream-PPO harness, a world-model debugger, the evaluation protocol, and every policy and log.",
+      "published": "2026-10-06T09:26:48Z",
+      "updated": "2026-10-06T09:26:48Z",
+      "paper_url": "http://arxiv.org/abs/2610.08033v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.08033v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "seed_topic": "video_world_model",
+      "matches": [
+        {
+          "topic_id": "diffusion_rl",
+          "topic_name": "DiffusionRL",
+          "score": 0.312,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.AI",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "opd_on_policy_distillation",
+          "topic_name": "OPD / On-Policy Distillation",
+          "score": 0.25,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.AI",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "video_world_model",
+          "topic_name": "Video World Model",
+          "score": 0.228,
+          "level": "low",
+          "reason": "关键词命中：world model；arXiv 分类重合：cs.AI",
+          "keyword_hits": [
+            "world model"
+          ]
+        },
+        {
+          "topic_id": "video_generation",
+          "topic_name": "Video Generation",
+          "score": 0.125,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.AI",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "kvcache_compression_storage_scheduling",
+          "topic_name": "KV cache 压缩与存储调度",
+          "score": 0.0,
+          "level": "low",
+          "reason": "文本语义与方向描述存在弱相关，需要人工复核。",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "sparse_attention",
+          "topic_name": "Sparse Attention",
+          "score": 0.0,
+          "level": "low",
+          "reason": "文本语义与方向描述存在弱相关，需要人工复核。",
+          "keyword_hits": []
+        }
+      ],
+      "best_match": {
+        "topic_id": "diffusion_rl",
+        "topic_name": "DiffusionRL",
+        "score": 0.312,
+        "level": "low",
+        "reason": "arXiv 分类重合：cs.AI",
+        "keyword_hits": []
+      },
+      "chinese_summary": {
+        "problem": "未配置模型 API，当前仅基于标题、摘要和关键词生成基础摘要。",
+        "method": "World models are usually judged from the inside: by prediction loss, by the return a policy earns in imagination, or by how convincing their frames look.",
+        "innovation": "需要接入模型 API 后自动抽取更精确的中文创新点。",
+        "evidence": "来源摘要可在论文原文中核验。",
+        "limitations": "基础模式不会阅读全文，也不会进行深度技术对比。",
+        "why_relevant": "arXiv 分类重合：cs.AI"
+      },
+      "first_seen_at": "2026-10-07T01:20:24.171430+00:00",
+      "last_seen_at": "2026-10-07T01:20:24.171430+00:00",
+      "retained_from_previous_run": false
+    },
+    {
+      "id": "2610.07704v1",
+      "source": "arXiv",
+      "title": "Independent Multi-Agent Reinforcement Learning with Counterfactual Semantic-Social World Models",
+      "authors": [
+        "Fernando Martinez",
+        "Tao Li",
+        "Yingdong Lu",
+        "Juntao Chen"
+      ],
+      "summary": "Fully decentralized multi-agent reinforcement learning (MARL), also referred to as independent learning, requires each agent to learn and act using only its local information and experience, without a centralized critic or inter-agent communication. Such a stringent information structure renders the conventional reward signal ambiguous. A poor return may result from an ineffective ego action, an incompatible teammate response, or an effective opponent response, yet scalar rewards alone do not reveal which explanation is responsible. We argue that agents can learn more effectively by prospectively comparing the consequences of candidate actions rather than diagnosing failures only from realized returns. We introduce CASTLE (Counterfactual Action-conditioned Semantic Tokens for Local Execution in Decentralized MARL), an offline-training, online-in-context guidance framework with two complementary world models. A Local Dynamics World Model, offline pre-trained over agents' local trajectories, summarizes the agent's local trajectory dynamics and partial observability, while a Semantic-Social World Model predicts compact short-horizon task and social consequences for each candidate ego action. The latter is trained from counterfactual simulator rollouts that expose plausible teammate and opponent responses to alternative actions taken from the same logged rollout state. During online learning and execution, both world models remain frozen and are queried by agents using only locally available information. Their prediction logits provide in-context guidance to an independent PPO policy. Across 30 matched seeds on Tag, Spread, and Adversary in the benchmark multi-particle environments, our proposed CASTLE achieves the highest mean final score among the evaluated methods, exceeding the strongest baseline on each task by 10.67, 6.46, and 0.33 normalized points, respectively.",
+      "published": "2026-10-06T03:53:47Z",
+      "updated": "2026-10-06T03:53:47Z",
+      "paper_url": "http://arxiv.org/abs/2610.07704v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.07704v1",
+      "categories": [
+        "cs.MA",
+        "cs.LG"
+      ],
+      "seed_topic": "video_world_model",
+      "matches": [
+        {
+          "topic_id": "diffusion_rl",
+          "topic_name": "DiffusionRL",
+          "score": 0.312,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.LG",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "opd_on_policy_distillation",
+          "topic_name": "OPD / On-Policy Distillation",
+          "score": 0.312,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.LG",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "video_world_model",
+          "topic_name": "Video World Model",
+          "score": 0.29,
+          "level": "low",
+          "reason": "关键词命中：world model；arXiv 分类重合：cs.LG",
+          "keyword_hits": [
+            "world model"
+          ]
+        },
+        {
+          "topic_id": "video_generation",
+          "topic_name": "Video Generation",
+          "score": 0.125,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.LG",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "sparse_attention",
+          "topic_name": "Sparse Attention",
+          "score": 0.125,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.LG",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "kvcache_compression_storage_scheduling",
+          "topic_name": "KV cache 压缩与存储调度",
+          "score": 0.094,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.LG",
+          "keyword_hits": []
+        }
+      ],
+      "best_match": {
+        "topic_id": "diffusion_rl",
+        "topic_name": "DiffusionRL",
+        "score": 0.312,
+        "level": "low",
+        "reason": "arXiv 分类重合：cs.LG",
+        "keyword_hits": []
+      },
+      "chinese_summary": {
+        "problem": "未配置模型 API，当前仅基于标题、摘要和关键词生成基础摘要。",
+        "method": "Fully decentralized multi-agent reinforcement learning (MARL), also referred to as independent learning, requires each agent to learn and act using only its local information and experience, without a centralized critic or inter-agent communication.",
+        "innovation": "需要接入模型 API 后自动抽取更精确的中文创新点。",
+        "evidence": "来源摘要可在论文原文中核验。",
+        "limitations": "基础模式不会阅读全文，也不会进行深度技术对比。",
+        "why_relevant": "arXiv 分类重合：cs.LG"
+      },
+      "first_seen_at": "2026-10-07T01:20:24.171430+00:00",
+      "last_seen_at": "2026-10-07T01:20:24.171430+00:00",
+      "retained_from_previous_run": false
+    },
+    {
+      "id": "2610.07643v1",
+      "source": "arXiv",
+      "title": "Monte Carlo Estimation for KV Cache Eviction",
+      "authors": [
+        "Ahsan Bilal",
+        "Muhammad Ahmed Mohsin",
+        "Muhammad Umer",
+        "Wajih Hassan Raza",
+        "Atta Ul Asad",
+        "Young D. Kwon",
+        "Michal Valko",
+        "Dean F. Hougen"
+      ],
+      "summary": "Most KV-cache eviction methods ask, in effect, which memory appeared important while reading the prompt? We instead ask, which memory will matter while answering? Since decoding queries are unavailable at eviction time, prior future-aware methods rely on pseudo-responses or synthetic future-query estimates. We cast fixed-budget future-aware eviction as distributional estimation over plausible model-conditional query trajectories and introduce LORE-KV (Lookahead Output-perturbation with Reliability-weighted Ensembles for Key-Value caches), a training-free method that samples short autoregressive continuations from the frozen target model and uses their response-side query states to estimate prompt-token utility. Tokens are scored by projected leave-one-out attention-output deletion cost and aggregated across sampled futures with optional trajectory weighting. The temporary continuations are discarded before final decoding, requiring no auxiliary model or training. Ablations isolate the mechanism: at B=128, a single response-side continuation recovers about 89% of the gain over the prompt-window control, while additional futures provide smaller improvements. At B=128, LORE-KV raises the LongBench average on Qwen2.5-14B from 45.49 to 48.24 (+2.75) and the 16K RULER average on Mistral-7B from 45.20 to 51.05 (+5.85). Gains diminish at larger cache budgets and coexist with task-level regressions. LORE-KV incurs 1.46-2.77x AnDPro's per-sample wall-clock time as a one-time compression overhead across six dense and hybrid-attention backbones.",
+      "published": "2026-10-06T02:36:50Z",
+      "updated": "2026-10-06T02:36:50Z",
+      "paper_url": "http://arxiv.org/abs/2610.07643v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.07643v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "seed_topic": "kvcache_compression_storage_scheduling",
+      "matches": [
+        {
+          "topic_id": "opd_on_policy_distillation",
+          "topic_name": "OPD / On-Policy Distillation",
+          "score": 0.312,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.AI、cs.CL",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "kvcache_compression_storage_scheduling",
+          "topic_name": "KV cache 压缩与存储调度",
+          "score": 0.31,
+          "level": "low",
+          "reason": "关键词命中：KV cache eviction；arXiv 分类重合：cs.CL",
+          "keyword_hits": [
+            "KV cache eviction"
+          ]
+        },
+        {
+          "topic_id": "diffusion_rl",
+          "topic_name": "DiffusionRL",
+          "score": 0.25,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.AI、cs.CL",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "video_generation",
+          "topic_name": "Video Generation",
+          "score": 0.156,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.AI",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "video_world_model",
+          "topic_name": "Video World Model",
+          "score": 0.156,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.AI",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "sparse_attention",
+          "topic_name": "Sparse Attention",
+          "score": 0.156,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.CL",
+          "keyword_hits": []
+        }
+      ],
+      "best_match": {
+        "topic_id": "opd_on_policy_distillation",
+        "topic_name": "OPD / On-Policy Distillation",
+        "score": 0.312,
+        "level": "low",
+        "reason": "arXiv 分类重合：cs.AI、cs.CL",
+        "keyword_hits": []
+      },
+      "chinese_summary": {
+        "problem": "未配置模型 API，当前仅基于标题、摘要和关键词生成基础摘要。",
+        "method": "Most KV-cache eviction methods ask, in effect, which memory appeared important while reading the prompt?",
+        "innovation": "需要接入模型 API 后自动抽取更精确的中文创新点。",
+        "evidence": "来源摘要可在论文原文中核验。",
+        "limitations": "基础模式不会阅读全文，也不会进行深度技术对比。",
+        "why_relevant": "arXiv 分类重合：cs.AI、cs.CL"
+      },
+      "first_seen_at": "2026-10-07T01:20:24.171430+00:00",
+      "last_seen_at": "2026-10-07T01:20:24.171430+00:00",
       "retained_from_previous_run": false
     },
     {
@@ -8245,6 +8997,106 @@
       "first_seen_at": "2026-10-01T01:10:09.354213+00:00",
       "last_seen_at": "2026-10-01T01:10:09.354213+00:00",
       "retained_from_previous_run": true
+    },
+    {
+      "id": "2610.07949v1",
+      "source": "arXiv",
+      "title": "Commit While Futures Agree: Consequence-Aware Adaptive Action Chunking for Robot Manipulation",
+      "authors": [
+        "Yuyan Li",
+        "Yujia Wang",
+        "Yusong Huang",
+        "Junjie Yang",
+        "Yanggang Sheng",
+        "Ziyi Shi",
+        "Wenpeng Xu",
+        "Xiaoyang Zhou",
+        "Haoang Li",
+        "Hongliang Lu",
+        "Xinhu Zheng"
+      ],
+      "summary": "Action-chunking policies predict multi-step control sequences, but a fundamental question remains: how much of a predicted action chunk should be committed before replanning? Existing systems typically execute a fixed-length prefix, implicitly assuming that the same execution horizon remains trustworthy across states. Some adaptive methods estimate this horizon from the similarity or stability of predicted actions. However, different actions may lead to the same successful outcome, whereas similar actions can produce different futures, suggesting that commitment should be determined by agreement among imagined futures rather than by similarity in action space. To this end, we propose Consequence-Aware Adaptive Action Chunking (CA$^3$C), an inference-time framework built on a simple principle: commit while imagined futures agree, and replan when they diverge. Without modifying or retraining the base policy, CA$^3$C uses an action-conditioned world model to imagine the future consequences of multiple candidate action chunks under the same sampling noise. Using these imagined consequences, we formulate execution-horizon estimation as a Bayesian change-point inference problem and select the execution candidate through future consensus. Across multiple simulation benchmarks and real-world robot manipulation tasks, CA$^3$C consistently improves diverse action-chunking policies, achieving up to a 71.8% relative reduction in failure rate over the corresponding base policies.",
+      "published": "2026-10-06T08:23:04Z",
+      "updated": "2026-10-06T08:23:04Z",
+      "paper_url": "http://arxiv.org/abs/2610.07949v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.07949v1",
+      "categories": [
+        "cs.RO"
+      ],
+      "seed_topic": "video_world_model",
+      "matches": [
+        {
+          "topic_id": "video_world_model",
+          "topic_name": "Video World Model",
+          "score": 0.29,
+          "level": "low",
+          "reason": "关键词命中：world model；arXiv 分类重合：cs.RO",
+          "keyword_hits": [
+            "world model"
+          ]
+        },
+        {
+          "topic_id": "diffusion_rl",
+          "topic_name": "DiffusionRL",
+          "score": 0.156,
+          "level": "low",
+          "reason": "文本语义与方向描述存在弱相关，需要人工复核。",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "opd_on_policy_distillation",
+          "topic_name": "OPD / On-Policy Distillation",
+          "score": 0.125,
+          "level": "low",
+          "reason": "文本语义与方向描述存在弱相关，需要人工复核。",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "video_generation",
+          "topic_name": "Video Generation",
+          "score": 0.062,
+          "level": "low",
+          "reason": "文本语义与方向描述存在弱相关，需要人工复核。",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "kvcache_compression_storage_scheduling",
+          "topic_name": "KV cache 压缩与存储调度",
+          "score": 0.031,
+          "level": "low",
+          "reason": "文本语义与方向描述存在弱相关，需要人工复核。",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "sparse_attention",
+          "topic_name": "Sparse Attention",
+          "score": 0.0,
+          "level": "low",
+          "reason": "文本语义与方向描述存在弱相关，需要人工复核。",
+          "keyword_hits": []
+        }
+      ],
+      "best_match": {
+        "topic_id": "video_world_model",
+        "topic_name": "Video World Model",
+        "score": 0.29,
+        "level": "low",
+        "reason": "关键词命中：world model；arXiv 分类重合：cs.RO",
+        "keyword_hits": [
+          "world model"
+        ]
+      },
+      "chinese_summary": {
+        "problem": "未配置模型 API，当前仅基于标题、摘要和关键词生成基础摘要。",
+        "method": "Action-chunking policies predict multi-step control sequences, but a fundamental question remains: how much of a predicted action chunk should be committed before replanning?",
+        "innovation": "需要接入模型 API 后自动抽取更精确的中文创新点。",
+        "evidence": "来源摘要可在论文原文中核验。",
+        "limitations": "基础模式不会阅读全文，也不会进行深度技术对比。",
+        "why_relevant": "关键词命中：world model；arXiv 分类重合：cs.RO"
+      },
+      "first_seen_at": "2026-10-07T01:20:24.171430+00:00",
+      "last_seen_at": "2026-10-07T01:20:24.171430+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2609.38832v1",
@@ -9183,6 +10035,97 @@
       "retained_from_previous_run": true
     },
     {
+      "id": "2610.07958v1",
+      "source": "arXiv",
+      "title": "DensiTok: Making Feed-Forward 3D Gaussian Splatting See More Views Than It Is Given",
+      "authors": [
+        "Minhyeok Lee",
+        "Jungho Lee",
+        "Minseok Kang",
+        "Heeseung Choi",
+        "Ig-Jae Kim",
+        "Sangyoun Lee"
+      ],
+      "summary": "Feed-forward 3D Gaussian Splatting (3DGS) reconstructs a scene in a single forward pass, replacing per-scene optimization with a network trained across many scenes. Its quality, however, degrades sharply as the number of input images drops. The bottleneck is upstream of the reconstruction heads: from a few unposed views, the internal representation they read carries no evidence for unobserved regions, leaving holes, floaters, and blur. The common remedy supplies that evidence as pixels, synthesizing extra views with an image or video generator and re-encoding them, which is costly and not 3D-consistent by construction. We instead densify the evidence itself. We present DensiTok, a plug-in module for pretrained feed-forward 3DGS models that densifies their internal geometry tokens directly, making a frozen backbone behave as though it had observed many more views than it was given. DensiTok compresses those tokens into a compact latent space, completes the latents of the unobserved viewpoints in a single flow-matching step conditioned on camera geometry, and decodes them back into tokens that the original reconstruction heads. The same module design can be integrated into different pretrained predictors while keeping each backbone and its reconstruction heads frozen. Completion in a low-dimensional latent space requires no image synthesis or additional encoder passes. Across three pretrained backbones and two benchmarks, DensiTok consistently improves sparse-view reconstruction and recovers much of the gap to dense-view reconstruction.",
+      "published": "2026-10-06T08:29:41Z",
+      "updated": "2026-10-06T08:29:41Z",
+      "paper_url": "http://arxiv.org/abs/2610.07958v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.07958v1",
+      "categories": [
+        "cs.CV"
+      ],
+      "seed_topic": "video_generation",
+      "matches": [
+        {
+          "topic_id": "diffusion_rl",
+          "topic_name": "DiffusionRL",
+          "score": 0.25,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.CV",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "video_generation",
+          "topic_name": "Video Generation",
+          "score": 0.188,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.CV",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "video_world_model",
+          "topic_name": "Video World Model",
+          "score": 0.156,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.CV",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "opd_on_policy_distillation",
+          "topic_name": "OPD / On-Policy Distillation",
+          "score": 0.156,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.CV",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "sparse_attention",
+          "topic_name": "Sparse Attention",
+          "score": 0.094,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.CV",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "kvcache_compression_storage_scheduling",
+          "topic_name": "KV cache 压缩与存储调度",
+          "score": 0.0,
+          "level": "low",
+          "reason": "文本语义与方向描述存在弱相关，需要人工复核。",
+          "keyword_hits": []
+        }
+      ],
+      "best_match": {
+        "topic_id": "diffusion_rl",
+        "topic_name": "DiffusionRL",
+        "score": 0.25,
+        "level": "low",
+        "reason": "arXiv 分类重合：cs.CV",
+        "keyword_hits": []
+      },
+      "chinese_summary": {
+        "problem": "未配置模型 API，当前仅基于标题、摘要和关键词生成基础摘要。",
+        "method": "Feed-forward 3D Gaussian Splatting (3DGS) reconstructs a scene in a single forward pass, replacing per-scene optimization with a network trained across many scenes.",
+        "innovation": "需要接入模型 API 后自动抽取更精确的中文创新点。",
+        "evidence": "来源摘要可在论文原文中核验。",
+        "limitations": "基础模式不会阅读全文，也不会进行深度技术对比。",
+        "why_relevant": "arXiv 分类重合：cs.CV"
+      },
+      "first_seen_at": "2026-10-07T01:20:24.171430+00:00",
+      "last_seen_at": "2026-10-07T01:20:24.171430+00:00",
+      "retained_from_previous_run": false
+    },
+    {
       "id": "2610.05779v1",
       "source": "arXiv",
       "title": "A Spatiotemporal Semantic Importance-Guided Unified Compression and Editing Framework for AI-Generated Videos",
@@ -9269,7 +10212,7 @@
       },
       "first_seen_at": "2026-10-06T02:08:33.982444+00:00",
       "last_seen_at": "2026-10-06T02:08:33.982444+00:00",
-      "retained_from_previous_run": false
+      "retained_from_previous_run": true
     },
     {
       "id": "2609.39151v1",
@@ -9358,6 +10301,101 @@
       "first_seen_at": "2026-10-01T01:10:09.354213+00:00",
       "last_seen_at": "2026-10-01T01:10:09.354213+00:00",
       "retained_from_previous_run": true
+    },
+    {
+      "id": "2610.08137v1",
+      "source": "arXiv",
+      "title": "Rethinking Visual Provenance: Detection and Watermarking Across Direct Visual Generation and LLM-Driven Code Rendering",
+      "authors": [
+        "Zheng Gao",
+        "Xiaoyu Li",
+        "Zhicheng Bao",
+        "Yang Song",
+        "Jiaojiao Jiang"
+      ],
+      "summary": "AI systems create images and videos with image/video generation models or by writing code and graphics descriptions that are then rendered. These routes can produce similar visible artifacts but expose different representations, intervention points, and provenance evidence. We develop a production-centered framework that compares detection and watermarking across both routes. An explicit verification specification distinguishes passive inference, message recovery, and authenticated provenance. We organize image, video, source-code, and rendering-aware watermarks by production stage. We examine the different requirements of generated images and video, plots and SVG, programmable video, and agent-composed workflows. Documented Claude, OpenAI, and rendering-tool interfaces connect the framework to concrete systems. We pose ten scoped research questions on identifiability, observability, fair comparison across stages, recoverable payload, reconstruction, synchronization, composition, hybrid local contribution, and private production-event authentication. The result is a conceptual research agenda grounded in published methods, inspected interfaces, and elementary boundary examples. It reports no experiments and claims no new theorems; its appendix results are elementary calculations, and documentation and source inspection establish interfaces, not empirical robustness.",
+      "published": "2026-10-06T10:53:19Z",
+      "updated": "2026-10-06T10:53:19Z",
+      "paper_url": "http://arxiv.org/abs/2610.08137v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.08137v1",
+      "categories": [
+        "cs.CR",
+        "cs.CV"
+      ],
+      "seed_topic": "video_generation",
+      "matches": [
+        {
+          "topic_id": "video_generation",
+          "topic_name": "Video Generation",
+          "score": 0.228,
+          "level": "low",
+          "reason": "关键词命中：video generation；arXiv 分类重合：cs.CV",
+          "keyword_hits": [
+            "video generation"
+          ]
+        },
+        {
+          "topic_id": "diffusion_rl",
+          "topic_name": "DiffusionRL",
+          "score": 0.188,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.CV",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "video_world_model",
+          "topic_name": "Video World Model",
+          "score": 0.156,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.CV",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "opd_on_policy_distillation",
+          "topic_name": "OPD / On-Policy Distillation",
+          "score": 0.125,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.CV",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "sparse_attention",
+          "topic_name": "Sparse Attention",
+          "score": 0.094,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.CV",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "kvcache_compression_storage_scheduling",
+          "topic_name": "KV cache 压缩与存储调度",
+          "score": 0.062,
+          "level": "low",
+          "reason": "文本语义与方向描述存在弱相关，需要人工复核。",
+          "keyword_hits": []
+        }
+      ],
+      "best_match": {
+        "topic_id": "video_generation",
+        "topic_name": "Video Generation",
+        "score": 0.228,
+        "level": "low",
+        "reason": "关键词命中：video generation；arXiv 分类重合：cs.CV",
+        "keyword_hits": [
+          "video generation"
+        ]
+      },
+      "chinese_summary": {
+        "problem": "未配置模型 API，当前仅基于标题、摘要和关键词生成基础摘要。",
+        "method": "AI systems create images and videos with image/video generation models or by writing code and graphics descriptions that are then rendered.",
+        "innovation": "需要接入模型 API 后自动抽取更精确的中文创新点。",
+        "evidence": "来源摘要可在论文原文中核验。",
+        "limitations": "基础模式不会阅读全文，也不会进行深度技术对比。",
+        "why_relevant": "关键词命中：video generation；arXiv 分类重合：cs.CV"
+      },
+      "first_seen_at": "2026-10-07T01:20:24.171430+00:00",
+      "last_seen_at": "2026-10-07T01:20:24.171430+00:00",
+      "retained_from_previous_run": false
     },
     {
       "id": "2609.38978v1",
@@ -9644,6 +10682,98 @@
       "retained_from_previous_run": true
     },
     {
+      "id": "2610.07939v1",
+      "source": "arXiv",
+      "title": "CCDF: A Benchmark Dataset for Deepfake Detection in Real-World Surveillance Footage",
+      "authors": [
+        "Baptiste Chopin",
+        "Thomas Swearingen",
+        "Arun Ross",
+        "Antitza Dantcheva",
+        "Christian Rathgeb"
+      ],
+      "summary": "Due to rapid advances in Generative AI, commercial video generation tools can be used to produce fabricated surveillance footage that can fool both human viewers and automated synthetic video detectors. Since these tools are so widely accessible, a malicious user can create a harmful video clip at minimal cost. The production and dissemination of such videos in high-stakes settings, such as crime reporting and elections, can misdirect emergency response efforts or distort political discourse. Existing deepfake video datasets, used by the research community to develop deepfake detection algorithms, exhibit two limitations: (1) they emphasize benign web content rather than footage of possibly malicious activity, and (2) they rely on older or open-source generators that do not represent recent advances in generative systems. We assemble CCtv DeepFakes (CCDF), a video deepfake dataset, to address both gaps. CCDF contains 1840 videos (460 real and 1380 generated) spanning 16 crime and accident categories, with generated content produced using three leading commercial systems: Grok Imagine, Google VEO 3.1, and OpenAI Sora 2. CCDF is a highly realistic, small-scale, manually annotated dataset targeting evaluation of detection models. We release three versions of the dataset: the raw generated data, a cleaned version in which video metadata are standardized between real and synthetic samples to prevent detectors from exploiting trivial cues, and an altered version simulating low-effort post-processing attacks. We evaluate CCDF with ten recent state-of-the-art detectors covering different detection approaches. Our results suggest that these approaches do not reliably distinguish CCDF's generated videos from real ones, despite their strong reported performance on existing datasets. These results further confirm that existing datasets are not well-suited to evaluating certain threats.",
+      "published": "2026-10-06T08:13:10Z",
+      "updated": "2026-10-06T08:13:10Z",
+      "paper_url": "http://arxiv.org/abs/2610.07939v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.07939v1",
+      "categories": [
+        "cs.CV"
+      ],
+      "seed_topic": "video_generation",
+      "matches": [
+        {
+          "topic_id": "video_world_model",
+          "topic_name": "Video World Model",
+          "score": 0.219,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.CV",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "video_generation",
+          "topic_name": "Video Generation",
+          "score": 0.196,
+          "level": "low",
+          "reason": "关键词命中：video generation；arXiv 分类重合：cs.CV",
+          "keyword_hits": [
+            "video generation"
+          ]
+        },
+        {
+          "topic_id": "diffusion_rl",
+          "topic_name": "DiffusionRL",
+          "score": 0.188,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.CV",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "opd_on_policy_distillation",
+          "topic_name": "OPD / On-Policy Distillation",
+          "score": 0.156,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.CV",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "sparse_attention",
+          "topic_name": "Sparse Attention",
+          "score": 0.062,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.CV",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "kvcache_compression_storage_scheduling",
+          "topic_name": "KV cache 压缩与存储调度",
+          "score": 0.0,
+          "level": "low",
+          "reason": "文本语义与方向描述存在弱相关，需要人工复核。",
+          "keyword_hits": []
+        }
+      ],
+      "best_match": {
+        "topic_id": "video_world_model",
+        "topic_name": "Video World Model",
+        "score": 0.219,
+        "level": "low",
+        "reason": "arXiv 分类重合：cs.CV",
+        "keyword_hits": []
+      },
+      "chinese_summary": {
+        "problem": "未配置模型 API，当前仅基于标题、摘要和关键词生成基础摘要。",
+        "method": "Due to rapid advances in Generative AI, commercial video generation tools can be used to produce fabricated surveillance footage that can fool both human viewers and automated synthetic video detectors.",
+        "innovation": "需要接入模型 API 后自动抽取更精确的中文创新点。",
+        "evidence": "来源摘要可在论文原文中核验。",
+        "limitations": "基础模式不会阅读全文，也不会进行深度技术对比。",
+        "why_relevant": "arXiv 分类重合：cs.CV"
+      },
+      "first_seen_at": "2026-10-07T01:20:24.171430+00:00",
+      "last_seen_at": "2026-10-07T01:20:24.171430+00:00",
+      "retained_from_previous_run": false
+    },
+    {
       "id": "2608.26581v1",
       "source": "arXiv",
       "title": "Activation Outliers Matter: Robust Recovery for Quantized Multimodal LLMs",
@@ -9836,23 +10966,23 @@
     }
   ],
   "stats": {
-    "paper_count": 99,
-    "new_paper_count": 6,
+    "paper_count": 111,
+    "new_paper_count": 12,
     "days": 1,
     "collection_mode": "incremental",
-    "collection_cutoff_iso": "2026-10-05T00:37:43.772094+00:00",
+    "collection_cutoff_iso": "2026-10-06T02:08:33.982444+00:00",
     "max_per_topic": 25,
     "llm_enabled": true,
     "llm_concurrency": 2,
     "recent_history_days": 45,
     "successful_fetches": 6,
     "failed_fetches": 0,
-    "retained_paper_count": 93,
-    "retained_recent_low_count": 58,
+    "retained_paper_count": 99,
+    "retained_recent_low_count": 64,
     "dropped_low_relevance_count": 0,
     "max_stored_papers": 800,
     "max_data_bytes": 8388608,
-    "data_bytes": 509757,
+    "data_bytes": 569566,
     "storage_trimmed_count": 0,
     "storage_trimmed_by_level": {
       "high": 0,
