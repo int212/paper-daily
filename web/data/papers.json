@@ -1,6 +1,6 @@
 {
-  "generated_at": "Mon, 19 Oct 2026 00:02:53 +0000",
-  "generated_at_iso": "2026-10-19T00:02:53.773365+00:00",
+  "generated_at": "Tue, 20 Oct 2026 00:59:13 +0000",
+  "generated_at_iso": "2026-10-20T00:59:13.331761+00:00",
   "config_source": "file",
   "topics": [
     {
@@ -14066,26 +14066,25 @@
     "new_paper_count": 0,
     "days": 1,
     "collection_mode": "incremental",
-    "collection_cutoff_iso": "2026-10-17T00:14:26.875194+00:00",
+    "collection_cutoff_iso": "2026-10-19T00:02:53.773365+00:00",
     "max_per_topic": 25,
     "llm_enabled": true,
     "llm_concurrency": 2,
     "recent_history_days": 45,
-    "successful_fetches": 0,
-    "failed_fetches": 6,
+    "successful_fetches": 6,
+    "failed_fetches": 0,
     "retained_paper_count": 143,
     "retained_recent_low_count": 92,
     "dropped_low_relevance_count": 0,
     "max_stored_papers": 800,
     "max_data_bytes": 8388608,
-    "data_bytes": 727905,
+    "data_bytes": 727857,
     "storage_trimmed_count": 0,
     "storage_trimmed_by_level": {
       "high": 0,
       "medium": 0,
       "low": 0,
       "unknown": 0
-    },
-    "last_error": "All arXiv requests failed."
+    }
   }
 }
