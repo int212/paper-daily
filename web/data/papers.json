@@ -1,6 +1,6 @@
 {
-  "generated_at": "Mon, 02 Nov 2026 01:23:49 +0000",
-  "generated_at_iso": "2026-11-02T01:23:49.158684+00:00",
+  "generated_at": "Tue, 03 Nov 2026 03:23:24 +0000",
+  "generated_at_iso": "2026-11-03T03:23:24.408816+00:00",
   "config_source": "file",
   "topics": [
     {
@@ -14993,7 +14993,7 @@
     "new_paper_count": 0,
     "days": 1,
     "collection_mode": "incremental",
-    "collection_cutoff_iso": "2026-11-01T00:50:39.132831+00:00",
+    "collection_cutoff_iso": "2026-11-02T01:23:49.158684+00:00",
     "max_per_topic": 25,
     "llm_enabled": true,
     "llm_concurrency": 2,
