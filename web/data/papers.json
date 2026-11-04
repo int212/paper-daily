@@ -1,6 +1,6 @@
 {
-  "generated_at": "Tue, 03 Nov 2026 03:23:24 +0000",
-  "generated_at_iso": "2026-11-03T03:23:24.408816+00:00",
+  "generated_at": "Wed, 04 Nov 2026 02:03:15 +0000",
+  "generated_at_iso": "2026-11-04T02:03:15.827661+00:00",
   "config_source": "file",
   "topics": [
     {
@@ -13209,6 +13209,103 @@
       "retained_from_previous_run": true
     },
     {
+      "id": "2611.04244v1",
+      "source": "arXiv",
+      "title": "CounterSketch: Physics-Grounded Counterfactual Reasoning for Sketch-to-Video Generation",
+      "authors": [
+        "Hien Trinh",
+        "Tan-Hiep To",
+        "Dinh-Khoi Vo",
+        "Tam V. Nguyen",
+        "Minh-Triet Tran",
+        "Trung-Nghia Le"
+      ],
+      "summary": "Counterfactual sketch animation explores how a static sketch evolves under a hypothetical intervention. We present CounterSketch, a physics-grounded framework that transforms natural-language ``What if...?'' queries into physically plausible sketch animations. The framework integrates VLM-guided scene grounding, causal event-chain reasoning, constraint-based trajectory generation, and verification. It models physical transitions to update the scene graph, computes continuous object trajectories, and validates them against physical, geometric, and semantic constraints. The verified trajectories are then projected into object-level motion bounding boxes to guide downstream sketch-video synthesis. Experiments on CounterSketchBench (80 questions) demonstrate that physics-grounded trajectories provide stronger motion guidance than direct VLM predictions.",
+      "published": "2026-11-03T03:27:35Z",
+      "updated": "2026-11-03T03:27:35Z",
+      "paper_url": "http://arxiv.org/abs/2611.04244v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.04244v1",
+      "categories": [
+        "cs.CV"
+      ],
+      "seed_topic": "video_generation",
+      "matches": [
+        {
+          "topic_id": "video_generation",
+          "topic_name": "Video Generation",
+          "score": 0.268,
+          "level": "low",
+          "reason": "关键词命中：video generation、video synthesis；arXiv 分类重合：cs.CV",
+          "keyword_hits": [
+            "video generation",
+            "video synthesis"
+          ]
+        },
+        {
+          "topic_id": "opd_on_policy_distillation",
+          "topic_name": "OPD / On-Policy Distillation",
+          "score": 0.219,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.CV",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "diffusion_rl",
+          "topic_name": "DiffusionRL",
+          "score": 0.188,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.CV",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "video_world_model",
+          "topic_name": "Video World Model",
+          "score": 0.125,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.CV",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "sparse_attention",
+          "topic_name": "Sparse Attention",
+          "score": 0.062,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.CV",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "kvcache_compression_storage_scheduling",
+          "topic_name": "KV cache 压缩与存储调度",
+          "score": 0.0,
+          "level": "low",
+          "reason": "文本语义与方向描述存在弱相关，需要人工复核。",
+          "keyword_hits": []
+        }
+      ],
+      "best_match": {
+        "topic_id": "video_generation",
+        "topic_name": "Video Generation",
+        "score": 0.268,
+        "level": "low",
+        "reason": "关键词命中：video generation、video synthesis；arXiv 分类重合：cs.CV",
+        "keyword_hits": [
+          "video generation",
+          "video synthesis"
+        ]
+      },
+      "chinese_summary": {
+        "problem": "未配置模型 API，当前仅基于标题、摘要和关键词生成基础摘要。",
+        "method": "Counterfactual sketch animation explores how a static sketch evolves under a hypothetical intervention.",
+        "innovation": "需要接入模型 API 后自动抽取更精确的中文创新点。",
+        "evidence": "来源摘要可在论文原文中核验。",
+        "limitations": "基础模式不会阅读全文，也不会进行深度技术对比。",
+        "why_relevant": "关键词命中：video generation、video synthesis；arXiv 分类重合：cs.CV"
+      },
+      "first_seen_at": "2026-11-04T02:03:15.827661+00:00",
+      "last_seen_at": "2026-11-04T02:03:15.827661+00:00",
+      "retained_from_previous_run": false
+    },
+    {
       "id": "2610.11458v1",
       "source": "arXiv",
       "title": "Generative Adversarial Loops",
@@ -14989,11 +15086,11 @@
     }
   ],
   "stats": {
-    "paper_count": 152,
-    "new_paper_count": 0,
+    "paper_count": 153,
+    "new_paper_count": 1,
     "days": 1,
     "collection_mode": "incremental",
-    "collection_cutoff_iso": "2026-11-02T01:23:49.158684+00:00",
+    "collection_cutoff_iso": "2026-11-03T03:23:24.408816+00:00",
     "max_per_topic": 25,
     "llm_enabled": true,
     "llm_concurrency": 2,
@@ -15005,7 +15102,7 @@
     "dropped_low_relevance_count": 0,
     "max_stored_papers": 800,
     "max_data_bytes": 8388608,
-    "data_bytes": 774030,
+    "data_bytes": 778362,
     "storage_trimmed_count": 0,
     "storage_trimmed_by_level": {
       "high": 0,
