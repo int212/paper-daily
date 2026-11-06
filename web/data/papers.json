@@ -1,6 +1,6 @@
 {
-  "generated_at": "Thu, 05 Nov 2026 02:06:44 +0000",
-  "generated_at_iso": "2026-11-05T02:06:44.895122+00:00",
+  "generated_at": "Fri, 06 Nov 2026 02:07:41 +0000",
+  "generated_at_iso": "2026-11-06T02:07:41.254500+00:00",
   "config_source": "file",
   "topics": [
     {
@@ -5479,6 +5479,114 @@
       "retained_from_previous_run": true
     },
     {
+      "id": "2611.07392v1",
+      "source": "arXiv",
+      "title": "WeLM-Image: A Unified Image Generation Model towards Visual Intelligence",
+      "authors": [
+        "Canmiao Fu",
+        "Chen Li",
+        "Guohui Zhang",
+        "Hao Lu",
+        "Hongyang Wei",
+        "Huadong Wu",
+        "Huaisong Zhang",
+        "Hubery Yin",
+        "Liyuan Cui",
+        "Qixin Yan",
+        "Tong Shao",
+        "Xiaoqiang Zhou",
+        "Xinhang Leng",
+        "Ying Zhang",
+        "Zhenhai Liu",
+        "Zhipeng Huang"
+      ],
+      "summary": "We present \\textbf{WeLM-Image}, a unified image foundation model that integrates multimodal understanding into text-to-image generation, instruction-guided editing, and multi-reference synthesis. Designed for single-GPU deployment in WeChat's large-scale consumer applications, the model processes text, reference images, and target latents as one interleaved sequence. A Mixture-of-Transformers (MoT) backbone combines shared attention with independent understanding and generation parameters to limit optimization interference. Equipping each path with Mixture-of-Experts (MoE) modules provides sparse capacity, with 31.7B stored parameters and approximately 5.4B generation parameters activated per target latent token. A generation-oriented data engine combines a knowledge-grounded visual vocabulary with large-scale visual clustering to balance semantic coverage and editing tasks, while training-time evaluation guides iterative data refinement. Bilingual annotations and verified editing supervision support progressive training up to native 1.5K resolution. We optimize generation and editing separately with rubric- and checklist-based rewards, then consolidate the specialized policies through noise-aware on-policy distillation. In the reported overall comparisons, the 1536-resolution model ranks first among the evaluated open-source models on PRISM-Bench, Qwen-Image-Bench, and UnicBench. MeanFlow-based few-step distillation yields WeLM-Image-Turbo, which generates a $1024\\times1024$ image in 4.98\\,s on a single NVIDIA H20 GPU using eight guidance-free steps.",
+      "published": "2026-11-05T03:41:53Z",
+      "updated": "2026-11-05T03:41:53Z",
+      "paper_url": "http://arxiv.org/abs/2611.07392v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.07392v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "seed_topic": "opd_on_policy_distillation",
+      "matches": [
+        {
+          "topic_id": "opd_on_policy_distillation",
+          "topic_name": "OPD / On-Policy Distillation",
+          "score": 0.424,
+          "level": "medium",
+          "reason": "关键词命中：on-policy distillation、policy distillation；arXiv 分类重合：cs.AI、cs.CV",
+          "keyword_hits": [
+            "on-policy distillation",
+            "policy distillation"
+          ]
+        },
+        {
+          "topic_id": "diffusion_rl",
+          "topic_name": "DiffusionRL",
+          "score": 0.375,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.AI、cs.CV",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "video_generation",
+          "topic_name": "Video Generation",
+          "score": 0.344,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.AI、cs.CV",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "video_world_model",
+          "topic_name": "Video World Model",
+          "score": 0.188,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.AI、cs.CV",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "sparse_attention",
+          "topic_name": "Sparse Attention",
+          "score": 0.188,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.CV",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "kvcache_compression_storage_scheduling",
+          "topic_name": "KV cache 压缩与存储调度",
+          "score": 0.062,
+          "level": "low",
+          "reason": "文本语义与方向描述存在弱相关，需要人工复核。",
+          "keyword_hits": []
+        }
+      ],
+      "best_match": {
+        "topic_id": "opd_on_policy_distillation",
+        "topic_name": "OPD / On-Policy Distillation",
+        "score": 0.424,
+        "level": "medium",
+        "reason": "关键词命中：on-policy distillation、policy distillation；arXiv 分类重合：cs.AI、cs.CV",
+        "keyword_hits": [
+          "on-policy distillation",
+          "policy distillation"
+        ]
+      },
+      "chinese_summary": {
+        "problem": "未配置模型 API，当前仅基于标题、摘要和关键词生成基础摘要。",
+        "method": "We present \\textbf{WeLM-Image}, a unified image foundation model that integrates multimodal understanding into text-to-image generation, instruction-guided editing, and multi-reference synthesis.",
+        "innovation": "需要接入模型 API 后自动抽取更精确的中文创新点。",
+        "evidence": "来源摘要可在论文原文中核验。",
+        "limitations": "基础模式不会阅读全文，也不会进行深度技术对比。",
+        "why_relevant": "关键词命中：on-policy distillation、policy distillation；arXiv 分类重合：cs.AI、cs.CV"
+      },
+      "first_seen_at": "2026-11-06T02:07:41.254500+00:00",
+      "last_seen_at": "2026-11-06T02:07:41.254500+00:00",
+      "retained_from_previous_run": false
+    },
+    {
       "id": "2609.36832v1",
       "source": "arXiv",
       "title": "Motion Concept Unlearning in Video Diffusion Models",
@@ -9958,7 +10066,7 @@
       },
       "first_seen_at": "2026-11-05T02:06:44.895122+00:00",
       "last_seen_at": "2026-11-05T02:06:44.895122+00:00",
-      "retained_from_previous_run": false
+      "retained_from_previous_run": true
     },
     {
       "id": "2610.11251v1",
@@ -11307,7 +11415,7 @@
       },
       "first_seen_at": "2026-11-05T02:06:44.895122+00:00",
       "last_seen_at": "2026-11-05T02:06:44.895122+00:00",
-      "retained_from_previous_run": false
+      "retained_from_previous_run": true
     },
     {
       "id": "2610.36925v1",
@@ -12343,7 +12451,7 @@
       },
       "first_seen_at": "2026-11-05T02:06:44.895122+00:00",
       "last_seen_at": "2026-11-05T02:06:44.895122+00:00",
-      "retained_from_previous_run": false
+      "retained_from_previous_run": true
     },
     {
       "id": "2611.05893v1",
@@ -12444,7 +12552,7 @@
       },
       "first_seen_at": "2026-11-05T02:06:44.895122+00:00",
       "last_seen_at": "2026-11-05T02:06:44.895122+00:00",
-      "retained_from_previous_run": false
+      "retained_from_previous_run": true
     },
     {
       "id": "2610.36840v1",
@@ -13781,7 +13889,7 @@
       },
       "first_seen_at": "2026-11-05T02:06:44.895122+00:00",
       "last_seen_at": "2026-11-05T02:06:44.895122+00:00",
-      "retained_from_previous_run": false
+      "retained_from_previous_run": true
     },
     {
       "id": "2610.11458v1",
@@ -14708,7 +14816,7 @@
       },
       "first_seen_at": "2026-11-05T02:06:44.895122+00:00",
       "last_seen_at": "2026-11-05T02:06:44.895122+00:00",
-      "retained_from_previous_run": false
+      "retained_from_previous_run": true
     },
     {
       "id": "2610.11591v1",
@@ -15658,23 +15766,23 @@
     }
   ],
   "stats": {
-    "paper_count": 159,
-    "new_paper_count": 6,
+    "paper_count": 160,
+    "new_paper_count": 1,
     "days": 1,
     "collection_mode": "incremental",
-    "collection_cutoff_iso": "2026-11-04T02:03:15.827661+00:00",
+    "collection_cutoff_iso": "2026-11-05T02:06:44.895122+00:00",
     "max_per_topic": 25,
     "llm_enabled": true,
     "llm_concurrency": 2,
     "recent_history_days": 45,
     "successful_fetches": 6,
     "failed_fetches": 0,
-    "retained_paper_count": 153,
-    "retained_recent_low_count": 98,
+    "retained_paper_count": 159,
+    "retained_recent_low_count": 104,
     "dropped_low_relevance_count": 0,
     "max_stored_papers": 800,
     "max_data_bytes": 8388608,
-    "data_bytes": 808044,
+    "data_bytes": 813537,
     "storage_trimmed_count": 0,
     "storage_trimmed_by_level": {
       "high": 0,
