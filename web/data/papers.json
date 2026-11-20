@@ -1,6 +1,6 @@
 {
-  "generated_at": "Thu, 19 Nov 2026 03:03:11 +0000",
-  "generated_at_iso": "2026-11-19T03:03:11.629439+00:00",
+  "generated_at": "Fri, 20 Nov 2026 02:54:52 +0000",
+  "generated_at_iso": "2026-11-20T02:54:52.651612+00:00",
   "config_source": "file",
   "topics": [
     {
@@ -1525,7 +1525,7 @@
       },
       "first_seen_at": "2026-11-19T03:03:11.629439+00:00",
       "last_seen_at": "2026-11-19T03:03:11.629439+00:00",
-      "retained_from_previous_run": false
+      "retained_from_previous_run": true
     },
     {
       "id": "2611.22446v1",
@@ -4383,7 +4383,7 @@
       },
       "first_seen_at": "2026-11-19T03:03:11.629439+00:00",
       "last_seen_at": "2026-11-19T03:03:11.629439+00:00",
-      "retained_from_previous_run": false
+      "retained_from_previous_run": true
     },
     {
       "id": "2610.36466v1",
@@ -6589,7 +6589,7 @@
       },
       "first_seen_at": "2026-11-19T03:03:11.629439+00:00",
       "last_seen_at": "2026-11-19T03:03:11.629439+00:00",
-      "retained_from_previous_run": false
+      "retained_from_previous_run": true
     },
     {
       "id": "2611.22483v1",
@@ -7574,7 +7574,7 @@
       },
       "first_seen_at": "2026-11-19T03:03:11.629439+00:00",
       "last_seen_at": "2026-11-19T03:03:11.629439+00:00",
-      "retained_from_previous_run": false
+      "retained_from_previous_run": true
     },
     {
       "id": "2610.09940v1",
@@ -7770,7 +7770,7 @@
       },
       "first_seen_at": "2026-11-19T03:03:11.629439+00:00",
       "last_seen_at": "2026-11-19T03:03:11.629439+00:00",
-      "retained_from_previous_run": false
+      "retained_from_previous_run": true
     },
     {
       "id": "2610.36729v1",
@@ -8298,7 +8298,7 @@
       },
       "first_seen_at": "2026-11-19T03:03:11.629439+00:00",
       "last_seen_at": "2026-11-19T03:03:11.629439+00:00",
-      "retained_from_previous_run": false
+      "retained_from_previous_run": true
     },
     {
       "id": "2611.22280v1",
@@ -9225,6 +9225,104 @@
       "retained_from_previous_run": true
     },
     {
+      "id": "2611.25433v1",
+      "source": "arXiv",
+      "title": "RoCoKV: Accelerating LLM Inference Serving through Uncertainty and Redundancy Aware KV Cache Compression",
+      "authors": [
+        "Payman Behnam",
+        "Elaheh Sobhani",
+        "Saad Amin",
+        "Yahya Hassan",
+        "Daniyal Khan",
+        "Biswadeep Chakraborty",
+        "Tanish Patwa",
+        "Souvik Kundu",
+        "Alexey Tumanov"
+      ],
+      "summary": "KV cache compression is critical for large reasoning models, where most of the cost comes from long generated reasoning traces rather than the input prompt. These traces often contain redundant and low-utility tokens due to looping, self-verification, and corrections. However, such tokens may still receive high attention scores, making it difficult to remove them without harming the reasoning process. We propose RoCoKV, a KV cache compression method designed for large reasoning models. RoCoKV introduces two key components. First, uncertainty-guided adaptive pruning adjusts the compression strength based on the model's confidence, allocating more memory during uncertain phases and applying stronger pruning when the model is confident. Second, redundancy-aware token selection reduces the impact of tokens that are highly similar to recent reasoning content, encouraging the model to retain more informative and diverse tokens. Beyond the algorithm, we co-design RoCoKV with the serving stack: we develop fused three-phase CUDA decode kernels and integrate them into vLLM as a drop-in plugin that preserves its paged KV layout and CUDA graph capture, turning algorithmic savings into real end-to-end speedups. Extensive experiments across three reasoning benchmarks and two reasoning models demonstrate that RoCoKV consistently improves reasoning accuracy under constrained KV cache budgets, achieving higher accuracy compared to state-of-the-art KV cache compression methods. For DeepSeek-R1-Distill-Llama-8B in vLLM, RoCoKV achieves a 1.27X speedup and 38% higher throughput on AIME25, the most challenging evaluated reasoning benchmark, and a 1.43X speedup and 45% higher throughput on the long synthetic benchmark, compared with Full-KV.",
+      "published": "2026-11-19T03:16:18Z",
+      "updated": "2026-11-19T03:16:18Z",
+      "paper_url": "http://arxiv.org/abs/2611.25433v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.25433v1",
+      "categories": [
+        "cs.CL"
+      ],
+      "seed_topic": "kvcache_compression_storage_scheduling",
+      "matches": [
+        {
+          "topic_id": "kvcache_compression_storage_scheduling",
+          "topic_name": "KV cache 压缩与存储调度",
+          "score": 0.372,
+          "level": "low",
+          "reason": "关键词命中：KV cache compression；arXiv 分类重合：cs.CL",
+          "keyword_hits": [
+            "KV cache compression"
+          ]
+        },
+        {
+          "topic_id": "diffusion_rl",
+          "topic_name": "DiffusionRL",
+          "score": 0.188,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.CL",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "opd_on_policy_distillation",
+          "topic_name": "OPD / On-Policy Distillation",
+          "score": 0.188,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.CL",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "sparse_attention",
+          "topic_name": "Sparse Attention",
+          "score": 0.188,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.CL",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "video_generation",
+          "topic_name": "Video Generation",
+          "score": 0.094,
+          "level": "low",
+          "reason": "文本语义与方向描述存在弱相关，需要人工复核。",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "video_world_model",
+          "topic_name": "Video World Model",
+          "score": 0.062,
+          "level": "low",
+          "reason": "文本语义与方向描述存在弱相关，需要人工复核。",
+          "keyword_hits": []
+        }
+      ],
+      "best_match": {
+        "topic_id": "kvcache_compression_storage_scheduling",
+        "topic_name": "KV cache 压缩与存储调度",
+        "score": 0.372,
+        "level": "low",
+        "reason": "关键词命中：KV cache compression；arXiv 分类重合：cs.CL",
+        "keyword_hits": [
+          "KV cache compression"
+        ]
+      },
+      "chinese_summary": {
+        "problem": "未配置模型 API，当前仅基于标题、摘要和关键词生成基础摘要。",
+        "method": "KV cache compression is critical for large reasoning models, where most of the cost comes from long generated reasoning traces rather than the input prompt.",
+        "innovation": "需要接入模型 API 后自动抽取更精确的中文创新点。",
+        "evidence": "来源摘要可在论文原文中核验。",
+        "limitations": "基础模式不会阅读全文，也不会进行深度技术对比。",
+        "why_relevant": "关键词命中：KV cache compression；arXiv 分类重合：cs.CL"
+      },
+      "first_seen_at": "2026-11-20T02:54:52.651612+00:00",
+      "last_seen_at": "2026-11-20T02:54:52.651612+00:00",
+      "retained_from_previous_run": false
+    },
+    {
       "id": "2610.11214v1",
       "source": "arXiv",
       "title": "Bridging KV-Cache Quantization and Linear Attention: From Theory to Pretrained Weight Migration",
@@ -9412,7 +9510,7 @@
       },
       "first_seen_at": "2026-11-19T03:03:11.629439+00:00",
       "last_seen_at": "2026-11-19T03:03:11.629439+00:00",
-      "retained_from_previous_run": false
+      "retained_from_previous_run": true
     },
     {
       "id": "2611.22561v1",
@@ -10279,7 +10377,7 @@
       },
       "first_seen_at": "2026-11-19T03:03:11.629439+00:00",
       "last_seen_at": "2026-11-19T03:03:11.629439+00:00",
-      "retained_from_previous_run": false
+      "retained_from_previous_run": true
     },
     {
       "id": "2611.22298v1",
@@ -11893,7 +11991,7 @@
       },
       "first_seen_at": "2026-11-19T03:03:11.629439+00:00",
       "last_seen_at": "2026-11-19T03:03:11.629439+00:00",
-      "retained_from_previous_run": false
+      "retained_from_previous_run": true
     },
     {
       "id": "2611.22686v1",
@@ -13437,6 +13535,101 @@
       "retained_from_previous_run": true
     },
     {
+      "id": "2611.25444v1",
+      "source": "arXiv",
+      "title": "VisualTalk-Bench: Evaluating Question-Driven Avatar-Led Video Explanations",
+      "authors": [
+        "Xin Zhang",
+        "Tujie Xu",
+        "Zhiyi Chen",
+        "Xiaodong Zhang",
+        "Sicheng Yang",
+        "Minglei Li"
+      ],
+      "summary": "Advances in video generation and avatar synthesis enable new ways to answer user questions through visual explanations. This task requires a system to formulate a correct answer, translate relevant information into visual material, and deliver the explanation through an avatar's speech and actions. Existing benchmarks rarely assess whether avatars point to the visual content being discussed. We introduce VisualTalk-Bench for question-driven avatar-led video explanations in finance and Chinese and English education. It includes 800 curated reference videos and 100 independent evaluation requests, assessing Content Factuality, Speech-Visual Consistency, Visual Quality, Motion Smoothness, and Avatar-Content Pointing. Yet end-to-end video generators often struggle to align gestures with specific visual targets. To explore this challenge, we develop Avatar-O Agent, a modular reference implementation with explicit interaction planning. Experiments across six agents show that factual precision and visual quality do not guarantee accurate pointing. A 26-participant study comparing four agents finds that Avatar-O Agent receives the highest average ratings for visual guidance, perceived pointing accuracy, and explanation effectiveness. We will release the data and code.",
+      "published": "2026-11-19T03:24:26Z",
+      "updated": "2026-11-19T03:24:26Z",
+      "paper_url": "http://arxiv.org/abs/2611.25444v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.25444v1",
+      "categories": [
+        "cs.CV"
+      ],
+      "seed_topic": "video_generation",
+      "matches": [
+        {
+          "topic_id": "video_generation",
+          "topic_name": "Video Generation",
+          "score": 0.259,
+          "level": "low",
+          "reason": "关键词命中：video generation；arXiv 分类重合：cs.CV",
+          "keyword_hits": [
+            "video generation"
+          ]
+        },
+        {
+          "topic_id": "video_world_model",
+          "topic_name": "Video World Model",
+          "score": 0.156,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.CV",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "diffusion_rl",
+          "topic_name": "DiffusionRL",
+          "score": 0.156,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.CV",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "opd_on_policy_distillation",
+          "topic_name": "OPD / On-Policy Distillation",
+          "score": 0.125,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.CV",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "sparse_attention",
+          "topic_name": "Sparse Attention",
+          "score": 0.062,
+          "level": "low",
+          "reason": "arXiv 分类重合：cs.CV",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "kvcache_compression_storage_scheduling",
+          "topic_name": "KV cache 压缩与存储调度",
+          "score": 0.0,
+          "level": "low",
+          "reason": "文本语义与方向描述存在弱相关，需要人工复核。",
+          "keyword_hits": []
+        }
+      ],
+      "best_match": {
+        "topic_id": "video_generation",
+        "topic_name": "Video Generation",
+        "score": 0.259,
+        "level": "low",
+        "reason": "关键词命中：video generation；arXiv 分类重合：cs.CV",
+        "keyword_hits": [
+          "video generation"
+        ]
+      },
+      "chinese_summary": {
+        "problem": "未配置模型 API，当前仅基于标题、摘要和关键词生成基础摘要。",
+        "method": "Advances in video generation and avatar synthesis enable new ways to answer user questions through visual explanations.",
+        "innovation": "需要接入模型 API 后自动抽取更精确的中文创新点。",
+        "evidence": "来源摘要可在论文原文中核验。",
+        "limitations": "基础模式不会阅读全文，也不会进行深度技术对比。",
+        "why_relevant": "关键词命中：video generation；arXiv 分类重合：cs.CV"
+      },
+      "first_seen_at": "2026-11-20T02:54:52.651612+00:00",
+      "last_seen_at": "2026-11-20T02:54:52.651612+00:00",
+      "retained_from_previous_run": false
+    },
+    {
       "id": "2611.22497v1",
       "source": "arXiv",
       "title": "Towards Data-Efficient, Real-Time World Models",
@@ -14004,7 +14197,7 @@
       },
       "first_seen_at": "2026-11-19T03:03:11.629439+00:00",
       "last_seen_at": "2026-11-19T03:03:11.629439+00:00",
-      "retained_from_previous_run": false
+      "retained_from_previous_run": true
     },
     {
       "id": "2610.11552v1",
@@ -14559,7 +14752,7 @@
       },
       "first_seen_at": "2026-11-19T03:03:11.629439+00:00",
       "last_seen_at": "2026-11-19T03:03:11.629439+00:00",
-      "retained_from_previous_run": false
+      "retained_from_previous_run": true
     },
     {
       "id": "2611.05890v1",
@@ -15321,23 +15514,23 @@
     }
   ],
   "stats": {
-    "paper_count": 155,
-    "new_paper_count": 11,
+    "paper_count": 157,
+    "new_paper_count": 2,
     "days": 1,
     "collection_mode": "incremental",
-    "collection_cutoff_iso": "2026-11-18T03:30:22.216421+00:00",
+    "collection_cutoff_iso": "2026-11-19T03:03:11.629439+00:00",
     "max_per_topic": 25,
     "llm_enabled": true,
     "llm_concurrency": 2,
     "recent_history_days": 45,
     "successful_fetches": 6,
     "failed_fetches": 0,
-    "retained_paper_count": 144,
-    "retained_recent_low_count": 83,
+    "retained_paper_count": 155,
+    "retained_recent_low_count": 92,
     "dropped_low_relevance_count": 0,
     "max_stored_papers": 800,
     "max_data_bytes": 8388608,
-    "data_bytes": 789135,
+    "data_bytes": 799127,
     "storage_trimmed_count": 0,
     "storage_trimmed_by_level": {
       "high": 0,
